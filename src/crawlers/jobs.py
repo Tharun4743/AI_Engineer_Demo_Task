@@ -1,4 +1,5 @@
 import asyncio
+import re
 from datetime import datetime, timezone
 from typing import List, Dict, Any
 import feedparser
@@ -9,6 +10,34 @@ from src.resolver.entity_resolver import entity_resolver
 from src.storage.db import db_manager
 from src.storage.dedup import deduplicator
 from src.core.logging import logger
+
+
+def infer_role_family(title: str) -> str:
+    """Infers job role family from title using keyword matching."""
+    t = title.lower()
+    if any(kw in t for kw in ["engineer", "developer", "swe", "frontend", "backend", "fullstack", "full-stack",
+                               "devops", "sre", "infrastructure", "software", "platform"]):
+        return "Engineering"
+    if any(kw in t for kw in ["data scientist", "ml", "machine learning", "ai researcher", "deep learning",
+                               "nlp", "computer vision", "research scientist"]):
+        return "Data Science"
+    if any(kw in t for kw in ["designer", "ux", "ui", "design"]):
+        return "Design"
+    if any(kw in t for kw in ["product manager", "product lead", "pm"]):
+        return "Product"
+    if "marketing" in t:
+        return "Marketing"
+    if "sales" in t:
+        return "Sales"
+    if any(kw in t for kw in ["analyst", "analytics", "business intelligence"]):
+        return "Analytics"
+    return "Other"
+
+
+def infer_is_remote(location: str, title: str) -> bool:
+    """Infers whether a job is remote from location and title."""
+    combined = f"{location} {title}".lower()
+    return "remote" in combined
 
 
 class JobsCrawler:
@@ -26,6 +55,8 @@ class JobsCrawler:
         try:
             data = await http_client.get_json(url)
             jobs = data.get("data", [])
+            now_iso = datetime.now(timezone.utc).isoformat()
+
             for j in jobs:
                 job_url = j.get("url")
                 title = j.get("title")
@@ -45,19 +76,24 @@ class JobsCrawler:
                     continue
 
                 canonical_name, _ = entity_resolver.resolve(raw_name=company, source_url=job_url)
+                location = j.get("location", "Remote")
 
                 job = Job(
-                    title=title.strip(),
-                    company_name=company.strip(),
-                    canonical_name=canonical_name,
-                    job_url=job_url.strip(),
-                    source_url=url,
-                    location=j.get("location", "Remote"),
-                    salary_range="Competitive",
-                    published_at=dt,
-                    date_method="timestamp",
+                    schemaVersion="1.0",
+                    recordType="JOB",
                     source_name=source_name,
-                    raw_extracted_text=f"{title} at {company} ({j.get('location')})",
+                    source_url=url,
+                    content_title=title.strip(),
+                    content_company=canonical_name,
+                    content_date=dt.isoformat(),
+                    content_is_remote=infer_is_remote(location, title),
+                    content_role_family=infer_role_family(title),
+                    content_location=location,
+                    content_salary_range="Competitive",
+                    content_jobUrl=job_url.strip(),
+                    date_method="timestamp",
+                    collectedAt=now_iso,
+                    raw_extracted_text=f"{title} at {company} ({location})",
                 )
                 collected.append(job)
                 db_manager.save_job(job)
@@ -76,6 +112,7 @@ class JobsCrawler:
         try:
             content = await http_client.get_text(url)
             parsed = feedparser.parse(content)
+            now_iso = datetime.now(timezone.utc).isoformat()
 
             for entry in parsed.entries:
                 job_url = entry.get("link")
@@ -92,28 +129,30 @@ class JobsCrawler:
                 if not date_extractor.is_within_hours(dt, hours=self.max_age_hours):
                     continue
 
-                # Heuristic company extraction from title if formatted "Title at Company"
                 company = "Remote Technology"
+                title_clean = title
                 if " at " in title:
                     parts = title.split(" at ")
                     title_clean = parts[0].strip()
                     company = parts[1].strip()
-                else:
-                    title_clean = title
 
                 canonical_name, _ = entity_resolver.resolve(raw_name=company, source_url=job_url)
 
                 job = Job(
-                    title=title_clean,
-                    company_name=company,
-                    canonical_name=canonical_name,
-                    job_url=job_url.strip(),
-                    source_url=url,
-                    location="Remote",
-                    salary_range="Competitive",
-                    published_at=dt,
-                    date_method=method,
+                    schemaVersion="1.0",
+                    recordType="JOB",
                     source_name=source_name,
+                    source_url=url,
+                    content_title=title_clean,
+                    content_company=canonical_name,
+                    content_date=dt.isoformat() if hasattr(dt, 'isoformat') else str(dt),
+                    content_is_remote=True,
+                    content_role_family=infer_role_family(title_clean),
+                    content_location="Remote",
+                    content_salary_range="Competitive",
+                    content_jobUrl=job_url.strip(),
+                    date_method=method,
+                    collectedAt=now_iso,
                     raw_extracted_text=f"{title} ({job_url})",
                 )
                 collected.append(job)
@@ -133,6 +172,7 @@ class JobsCrawler:
         try:
             data = await http_client.get_json(url)
             jobs = data.get("jobs", [])
+            now_iso = datetime.now(timezone.utc).isoformat()
 
             for j in jobs:
                 job_url = j.get("url")
@@ -151,19 +191,27 @@ class JobsCrawler:
                     continue
 
                 canonical_name, _ = entity_resolver.resolve(raw_name=company, source_url=job_url)
+                location = j.get("jobGeo", "Remote")
+                salary_min = j.get("annualSalaryMin")
+                salary_max = j.get("annualSalaryMax")
+                salary = f"{salary_min}-{salary_max}" if salary_min else "Competitive"
 
                 job = Job(
-                    title=title.strip(),
-                    company_name=company.strip(),
-                    canonical_name=canonical_name,
-                    job_url=job_url.strip(),
-                    source_url=url,
-                    location=j.get("jobGeo", "Remote"),
-                    salary_range=f"{j.get('annualSalaryMin', '')}-{j.get('annualSalaryMax', '')}" if j.get('annualSalaryMin') else "Competitive",
-                    published_at=dt,
-                    date_method=method,
+                    schemaVersion="1.0",
+                    recordType="JOB",
                     source_name=source_name,
-                    raw_extracted_text=f"{title} at {company} ({j.get('jobGeo')})",
+                    source_url=url,
+                    content_title=title.strip(),
+                    content_company=canonical_name,
+                    content_date=dt.isoformat() if hasattr(dt, 'isoformat') else str(dt),
+                    content_is_remote=infer_is_remote(location, title),
+                    content_role_family=infer_role_family(title),
+                    content_location=location,
+                    content_salary_range=salary,
+                    content_jobUrl=job_url.strip(),
+                    date_method=method,
+                    collectedAt=now_iso,
+                    raw_extracted_text=f"{title} at {company} ({location})",
                 )
                 collected.append(job)
                 db_manager.save_job(job)
@@ -182,6 +230,7 @@ class JobsCrawler:
         try:
             content = await http_client.get_text(url)
             parsed = feedparser.parse(content)
+            now_iso = datetime.now(timezone.utc).isoformat()
 
             for entry in parsed.entries:
                 job_url = entry.get("link")
@@ -199,16 +248,20 @@ class JobsCrawler:
                     continue
 
                 job = Job(
-                    title=title.strip(),
-                    company_name="Global Remote",
-                    canonical_name="Global Remote",
-                    job_url=job_url.strip(),
-                    source_url=url,
-                    location="Remote",
-                    salary_range="Competitive",
-                    published_at=dt,
-                    date_method=method,
+                    schemaVersion="1.0",
+                    recordType="JOB",
                     source_name=source_name,
+                    source_url=url,
+                    content_title=title.strip(),
+                    content_company="Global Remote",
+                    content_date=dt.isoformat() if hasattr(dt, 'isoformat') else str(dt),
+                    content_is_remote=True,
+                    content_role_family=infer_role_family(title),
+                    content_location="Remote",
+                    content_salary_range="Competitive",
+                    content_jobUrl=job_url.strip(),
+                    date_method=method,
+                    collectedAt=now_iso,
                     raw_extracted_text=f"{title} ({job_url})",
                 )
                 collected.append(job)
@@ -228,6 +281,7 @@ class JobsCrawler:
         try:
             content = await http_client.get_text(url)
             parsed = feedparser.parse(content)
+            now_iso = datetime.now(timezone.utc).isoformat()
 
             for entry in parsed.entries:
                 job_url = entry.get("link")
@@ -245,6 +299,7 @@ class JobsCrawler:
                     continue
 
                 company = "Tech Company"
+                title_clean = title
                 if " at " in title:
                     parts = title.split(" at ")
                     title_clean = parts[0].strip()
@@ -253,22 +308,24 @@ class JobsCrawler:
                     parts = title.split(" - ")
                     title_clean = parts[0].strip()
                     company = parts[1].strip()
-                else:
-                    title_clean = title
 
                 canonical_name, _ = entity_resolver.resolve(raw_name=company, source_url=job_url)
 
                 job = Job(
-                    title=title_clean,
-                    company_name=company,
-                    canonical_name=canonical_name,
-                    job_url=job_url.strip(),
-                    source_url=url,
-                    location="Remote",
-                    salary_range="Competitive",
-                    published_at=dt,
-                    date_method=method,
+                    schemaVersion="1.0",
+                    recordType="JOB",
                     source_name=source_name,
+                    source_url=url,
+                    content_title=title_clean,
+                    content_company=canonical_name,
+                    content_date=dt.isoformat() if hasattr(dt, 'isoformat') else str(dt),
+                    content_is_remote=True,
+                    content_role_family=infer_role_family(title_clean),
+                    content_location="Remote",
+                    content_salary_range="Competitive",
+                    content_jobUrl=job_url.strip(),
+                    date_method=method,
+                    collectedAt=now_iso,
                     raw_extracted_text=f"{title} ({job_url})",
                 )
                 collected.append(job)

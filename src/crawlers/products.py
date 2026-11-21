@@ -1,4 +1,5 @@
 import asyncio
+from datetime import datetime, timezone
 from typing import List
 from src.core.http import http_client
 from src.core.models import Product
@@ -25,6 +26,8 @@ class ProductsCrawler:
             if not isinstance(data, list):
                 logger.error("Hugging Face Spaces API did not return an array.")
                 return collected
+
+            now_iso = datetime.now(timezone.utc).isoformat()
 
             for item in data:
                 space_id = item.get("id")
@@ -54,14 +57,19 @@ class ProductsCrawler:
                 desc = f"Interactive AI Application on Hugging Face Spaces by {author or 'Community'} using {sdk}. Likes: {likes}."
 
                 product = Product(
-                    name=raw_name,
-                    canonical_name=canonical_entity or author or "Community AI",
-                    product_url=product_url,
+                    schemaVersion="1.0",
+                    recordType="PRODUCT",
+                    source_name="Hugging Face Spaces",
                     source_url=HF_SPACES_API,
-                    description=desc,
-                    category=sdk,
-                    stars_or_likes=likes,
-                    created_date=created_date,
+                    content_productName=raw_name,
+                    content_startupName=canonical_entity or author or "Community AI",
+                    content_pricingModel="FREE",
+                    content_description=desc,
+                    content_category=sdk,
+                    content_stars_or_likes=likes,
+                    content_productUrl=product_url,
+                    content_createdDate=created_date,
+                    collectedAt=now_iso,
                     raw_extracted_text=f"{raw_name} ({product_url})\n{desc}",
                 )
                 collected.append(product)

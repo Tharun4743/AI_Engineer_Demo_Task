@@ -2,6 +2,7 @@ import asyncio
 import os
 import re
 import urllib.parse
+from datetime import datetime, timezone
 from typing import List, Optional, Dict, Any
 from src.core.http import http_client
 from src.core.models import Paper
@@ -28,7 +29,6 @@ class PapersCrawler:
         if not repo_url or "github.com" not in repo_url:
             return 0
 
-        # Extract owner/repo
         match = re.search(r"github\.com/([^/]+)/([^/#?]+)", repo_url)
         if not match:
             return 0
@@ -57,6 +57,8 @@ class PapersCrawler:
             "conference paper in:description stars:>5"
         ]
 
+        now_iso = datetime.now(timezone.utc).isoformat()
+
         for query in queries:
             if len(collected) >= target:
                 break
@@ -79,7 +81,6 @@ class PapersCrawler:
                         stars = int(item.get("stargazers_count", 0))
                         desc = item.get("description") or ""
 
-                        # Extract arXiv link from description or construct from arXiv ID
                         arxiv_match = re.search(r"(https?://arxiv\.org/(?:abs|pdf)/[0-9]+\.[0-9]+(?:v[0-9]+)?)", desc)
                         arxiv_id_match = re.search(r"\b([0-9]{4}\.[0-9]{4,5})\b", desc)
 
@@ -90,7 +91,6 @@ class PapersCrawler:
                             arxiv_id = arxiv_id_match.group(1)
                             paper_url = f"https://arxiv.org/abs/{arxiv_id}"
                         else:
-                            # Use repo paper link or paper url
                             paper_url = f"https://arxiv.org/abs/{item.get('name')}"
                             arxiv_id = item.get("name")
 
@@ -99,20 +99,24 @@ class PapersCrawler:
 
                         title = item.get("name", "Research Paper").replace("-", " ").replace("_", " ").title()
                         paper = Paper(
-                            title=title,
-                            paper_url=paper_url,
+                            schemaVersion="1.0",
+                            recordType="RESEARCH_PAPER",
+                            source_name="GitHub Search",
                             source_url=url,
-                            arxiv_id=arxiv_id,
-                            published_date=item.get("created_at"),
-                            abstract=desc or f"Official code implementation for {title}",
-                            github_url=repo_url,
-                            github_stars=stars,
+                            content_title=title,
+                            content_authors=[],
+                            content_paper_url=paper_url,
+                            content_github_url=repo_url,
+                            content_github_stars=stars,
+                            content_published_date=item.get("created_at"),
+                            content_arxiv_id=arxiv_id,
+                            content_abstract=desc or f"Official code implementation for {title}",
+                            collectedAt=now_iso,
                             raw_extracted_text=f"{title}\n{desc}\n{repo_url}\nStars: {stars}",
                         )
                         collected.append(paper)
                         db_manager.save_paper(paper)
 
-                    # Pause to respect GitHub search rate limits
                     await asyncio.sleep(2.0)
                 except Exception as e:
                     logger.warning(f"Error querying GitHub search: {e}")
@@ -127,6 +131,7 @@ class PapersCrawler:
 
         offset = 0
         limit = 100
+        now_iso = datetime.now(timezone.utc).isoformat()
 
         while len(collected) < target:
             url = f"{base_url}&offset={offset}&limit={limit}"
@@ -148,24 +153,27 @@ class PapersCrawler:
                     if not deduplicator.mark_seen(paper_url):
                         continue
 
-                    # GitHub API query or live stars
                     stars = 0
                     if len(collected) < 50:
                         stars = await self.fetch_github_stars(repo_url)
 
-                    # Default to minimum 1 star for verified PWC code links if unauthenticated rate limit reached
                     if stars == 0:
                         stars = 1
 
                     paper = Paper(
-                        title=title.strip(),
-                        paper_url=paper_url.strip(),
+                        schemaVersion="1.0",
+                        recordType="RESEARCH_PAPER",
+                        source_name="PWC Archive",
                         source_url=url,
-                        arxiv_id=row_data.get("paper_arxiv_id"),
-                        published_date="2024",
-                        abstract=f"Research paper: {title}. Code implementation available at {repo_url}",
-                        github_url=repo_url.strip(),
-                        github_stars=stars,
+                        content_title=title.strip(),
+                        content_authors=[],
+                        content_paper_url=paper_url.strip(),
+                        content_github_url=repo_url.strip(),
+                        content_github_stars=stars,
+                        content_published_date="2024",
+                        content_arxiv_id=row_data.get("paper_arxiv_id"),
+                        content_abstract=f"Research paper: {title}. Code implementation available at {repo_url}",
+                        collectedAt=now_iso,
                         raw_extracted_text=f"{title}\n{paper_url}\n{repo_url}",
                     )
                     collected.append(paper)

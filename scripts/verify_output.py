@@ -3,6 +3,7 @@ import sys
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from datetime import datetime, timezone, timedelta
+from dateutil import parser as dateutil_parser
 from typing import Dict, Any, List
 from sqlalchemy.orm import Session
 from src.storage.db import (
@@ -25,13 +26,23 @@ class AcceptanceVerifier:
         self.results: Dict[str, Any] = {}
         self.failures: List[str] = []
 
+    def _parse_iso_date(self, date_str: str) -> datetime:
+        """Parse an ISO 8601 date string to a timezone-aware datetime."""
+        try:
+            dt = dateutil_parser.isoparse(date_str)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt
+        except Exception:
+            return datetime.now(timezone.utc)
+
     def verify_counts_and_uniqueness(self, session: Session):
         print("\n--- CHECK 1: Volume & Uniqueness Constraints ---")
 
         # 1. Startups >= 1,000
         startups = session.query(StartupModel).all()
         s_count = len(startups)
-        s_urls = [s.website for s in startups if s.website]
+        s_urls = [s.content_website for s in startups if s.content_website]
         s_unique = len(set(s_urls))
         s_missing_src = sum(1 for s in startups if not s.source_url)
         self.results["startups_count"] = s_count
@@ -49,7 +60,7 @@ class AcceptanceVerifier:
         # 2. Products >= 1,000
         products = session.query(ProductModel).all()
         p_count = len(products)
-        p_urls = [p.product_url for p in products if p.product_url]
+        p_urls = [p.content_productUrl for p in products if p.content_productUrl]
         p_unique = len(set(p_urls))
         p_missing_src = sum(1 for p in products if not p.source_url)
         self.results["products_count"] = p_count
@@ -67,10 +78,10 @@ class AcceptanceVerifier:
         # 3. Papers >= 1,000 with paper_url, github_url, and github_stars
         papers = session.query(PaperModel).all()
         paper_count = len(papers)
-        paper_urls = [p.paper_url for p in papers if p.paper_url]
+        paper_urls = [p.content_paper_url for p in papers if p.content_paper_url]
         paper_unique = len(set(paper_urls))
         paper_missing_src = sum(1 for p in papers if not p.source_url)
-        paper_with_code_stars = sum(1 for p in papers if p.github_url and p.github_stars is not None)
+        paper_with_code_stars = sum(1 for p in papers if p.content_github_url and p.content_github_stars is not None)
         self.results["papers_count"] = paper_count
         self.results["papers_unique_urls"] = paper_unique
         self.results["papers_with_code_stars"] = paper_with_code_stars
@@ -99,9 +110,7 @@ class AcceptanceVerifier:
         jobs_out_of_window = 0
 
         for j in jobs:
-            pub_at = j.published_at
-            if pub_at.tzinfo is None:
-                pub_at = pub_at.replace(tzinfo=timezone.utc)
+            pub_at = self._parse_iso_date(j.content_date)
             if pub_at < cutoff or pub_at > (now + timedelta(minutes=10)):
                 jobs_out_of_window += 1
 
@@ -128,9 +137,7 @@ class AcceptanceVerifier:
         news_out_of_window = 0
 
         for n in news:
-            pub_at = n.published_at
-            if pub_at.tzinfo is None:
-                pub_at = pub_at.replace(tzinfo=timezone.utc)
+            pub_at = self._parse_iso_date(n.content_publishedAt)
             if pub_at < cutoff or pub_at > (now + timedelta(minutes=10)):
                 news_out_of_window += 1
 

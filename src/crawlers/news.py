@@ -1,4 +1,5 @@
 import asyncio
+from datetime import datetime, timezone
 from typing import List, Dict
 import feedparser
 from src.core.http import http_client
@@ -46,6 +47,7 @@ class NewsCrawler:
         try:
             content = await http_client.get_text(feed_url)
             parsed = feedparser.parse(content)
+            now_iso = datetime.now(timezone.utc).isoformat()
 
             for entry in parsed.entries:
                 article_url = entry.get("link")
@@ -56,25 +58,26 @@ class NewsCrawler:
                 if not deduplicator.mark_seen(article_url):
                     continue
 
-                # Extract and validate date
                 raw_date = entry.get("published") or entry.get("updated")
                 dt, method = date_extractor.extract_date(raw_date)
 
-                # Strict 24h freshness constraint
                 if not date_extractor.is_within_hours(dt, hours=self.max_age_hours):
                     continue
 
                 summary = entry.get("summary") or entry.get("description") or title
 
                 news_item = News(
-                    title=title.strip(),
-                    article_url=article_url.strip(),
-                    source_url=feed_url,
+                    schemaVersion="1.0",
+                    recordType="NEWS",
                     source_name=source_name,
-                    published_at=dt,
+                    source_url=feed_url,
+                    content_title=title.strip(),
+                    content_articleUrl=article_url.strip(),
+                    content_publishedAt=dt.isoformat() if hasattr(dt, 'isoformat') else str(dt),
+                    content_summary=summary.strip(),
+                    content_mentionedEntities=["Artificial Intelligence"],
                     date_method=method,
-                    summary=summary.strip(),
-                    mentioned_entities=["Artificial Intelligence"],
+                    collectedAt=now_iso,
                     raw_extracted_text=f"{title}\n{summary}\nPublished: {raw_date}",
                 )
                 collected.append(news_item)

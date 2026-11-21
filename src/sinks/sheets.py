@@ -50,9 +50,15 @@ class SheetsExporter:
             startups = session.query(StartupModel).all()
             with open(startups_path, "w", newline="", encoding="utf-8") as f:
                 writer = csv.writer(f)
-                writer.writerow(["canonical_name", "legal_name", "domain", "website", "source_url", "description", "batch", "status", "country", "year_founded", "tags"])
+                writer.writerow(["schemaVersion", "recordType", "source_name", "source_url",
+                                 "content_entityName", "content_description", "content_data_employeeCount",
+                                 "content_batch", "content_status", "content_country", "content_yearFounded",
+                                 "content_tags", "content_website", "content_domain", "content_legalName", "collectedAt"])
                 for s in startups:
-                    writer.writerow([s.canonical_name, s.legal_name, s.domain, s.website, s.source_url, s.description, s.batch, s.status, s.country, s.year_founded, s.tags])
+                    writer.writerow([s.schemaVersion, s.recordType, s.source_name, s.source_url,
+                                     s.content_entityName, s.content_description, s.content_data_employeeCount,
+                                     s.content_batch, s.content_status, s.content_country, s.content_yearFounded,
+                                     s.content_tags, s.content_website, s.content_domain, s.content_legalName, s.collectedAt])
             exported_files["Startups"] = startups_path
 
             # 2. Products
@@ -60,9 +66,15 @@ class SheetsExporter:
             products = session.query(ProductModel).all()
             with open(products_path, "w", newline="", encoding="utf-8") as f:
                 writer = csv.writer(f)
-                writer.writerow(["name", "canonical_name", "product_url", "source_url", "description", "category", "stars_or_likes", "created_date"])
+                writer.writerow(["schemaVersion", "recordType", "source_name", "source_url",
+                                 "content_productName", "content_startupName", "content_pricingModel",
+                                 "content_description", "content_category", "content_stars_or_likes",
+                                 "content_productUrl", "content_createdDate", "collectedAt"])
                 for p in products:
-                    writer.writerow([p.name, p.canonical_name, p.product_url, p.source_url, p.description, p.category, p.stars_or_likes, p.created_date])
+                    writer.writerow([p.schemaVersion, p.recordType, p.source_name, p.source_url,
+                                     p.content_productName, p.content_startupName, p.content_pricingModel,
+                                     p.content_description, p.content_category, p.content_stars_or_likes,
+                                     p.content_productUrl, p.content_createdDate, p.collectedAt])
             exported_files["Products"] = products_path
 
             # 3. Research Papers
@@ -70,9 +82,15 @@ class SheetsExporter:
             papers = session.query(PaperModel).all()
             with open(papers_path, "w", newline="", encoding="utf-8") as f:
                 writer = csv.writer(f)
-                writer.writerow(["title", "paper_url", "source_url", "arxiv_id", "published_date", "abstract", "github_url", "github_stars"])
+                writer.writerow(["schemaVersion", "recordType", "source_name", "source_url",
+                                 "content_title", "content_authors", "content_paper_url",
+                                 "content_github_url", "content_github_stars", "content_published_date",
+                                 "content_arxiv_id", "collectedAt"])
                 for p in papers:
-                    writer.writerow([p.title, p.paper_url, p.source_url, p.arxiv_id, p.published_date, p.abstract, p.github_url, p.github_stars])
+                    writer.writerow([p.schemaVersion, p.recordType, p.source_name, p.source_url,
+                                     p.content_title, p.content_authors, p.content_paper_url,
+                                     p.content_github_url, p.content_github_stars, p.content_published_date,
+                                     p.content_arxiv_id, p.collectedAt])
             exported_files["Research Papers"] = papers_path
 
             # 4. Jobs
@@ -80,9 +98,15 @@ class SheetsExporter:
             jobs = session.query(JobModel).all()
             with open(jobs_path, "w", newline="", encoding="utf-8") as f:
                 writer = csv.writer(f)
-                writer.writerow(["title", "company_name", "canonical_name", "job_url", "source_url", "location", "salary_range", "published_at", "date_method", "source_name"])
+                writer.writerow(["schemaVersion", "recordType", "source_name", "source_url",
+                                 "content_title", "content_company", "content_date",
+                                 "content_is_remote", "content_role_family", "content_location",
+                                 "content_salary_range", "content_jobUrl", "date_method", "collectedAt"])
                 for j in jobs:
-                    writer.writerow([j.title, j.company_name, j.canonical_name, j.job_url, j.source_url, j.location, j.salary_range, j.published_at.isoformat() if j.published_at else "", j.date_method, j.source_name])
+                    writer.writerow([j.schemaVersion, j.recordType, j.source_name, j.source_url,
+                                     j.content_title, j.content_company, j.content_date,
+                                     j.content_is_remote, j.content_role_family, j.content_location,
+                                     j.content_salary_range, j.content_jobUrl, j.date_method, j.collectedAt])
             exported_files["Jobs"] = jobs_path
 
             # 5. News
@@ -90,9 +114,13 @@ class SheetsExporter:
             news_items = session.query(NewsModel).all()
             with open(news_path, "w", newline="", encoding="utf-8") as f:
                 writer = csv.writer(f)
-                writer.writerow(["title", "article_url", "source_url", "source_name", "published_at", "date_method", "summary", "mentioned_entities"])
+                writer.writerow(["schemaVersion", "recordType", "source_name", "source_url",
+                                 "content_title", "content_articleUrl", "content_publishedAt",
+                                 "content_summary", "content_mentionedEntities", "date_method", "collectedAt"])
                 for n in news_items:
-                    writer.writerow([n.title, n.article_url, n.source_url, n.source_name, n.published_at.isoformat() if n.published_at else "", n.date_method, n.summary, n.mentioned_entities])
+                    writer.writerow([n.schemaVersion, n.recordType, n.source_name, n.source_url,
+                                     n.content_title, n.content_articleUrl, n.content_publishedAt,
+                                     n.content_summary, n.content_mentionedEntities, n.date_method, n.collectedAt])
             exported_files["News"] = news_path
 
             # 6. Entity Mapping Log
@@ -133,34 +161,29 @@ class SheetsExporter:
             creds = Credentials.from_service_account_file(self.sa_json_path, scopes=scopes)
             client = gspread.authorize(creds)
 
-            # Open existing spreadsheet or create a new public one
             if self.sheet_id:
                 spreadsheet = client.open_by_key(self.sheet_id)
                 logger.info(f"Opened existing Google Sheet: {spreadsheet.url}")
             else:
                 spreadsheet = client.create("AI Competitive Intelligence Dashboard")
                 logger.info(f"Created new Google Sheet: {spreadsheet.url}")
-                # Make public view
                 spreadsheet.share(None, perm_type="anyone", role="reader")
                 logger.info("Configured Google Sheet permissions: Anyone with the link can view.")
 
             session: Session = db_manager.Session()
             try:
-                # Setup 6 required tabs in exact order
                 for tab_name in SHEET_TAB_NAMES:
                     try:
                         worksheet = spreadsheet.worksheet(tab_name)
                     except gspread.WorksheetNotFound:
                         worksheet = spreadsheet.add_worksheet(title=tab_name, rows=1500, cols=20)
 
-                    # Populate tab
                     rows_data = self._get_tab_rows(tab_name, session)
                     if rows_data:
                         worksheet.clear()
                         worksheet.update("A1", rows_data)
                         logger.info(f"Updated tab '{tab_name}' with {len(rows_data)-1} data rows.")
 
-                # Remove default 'Sheet1' if present
                 try:
                     default_sheet = spreadsheet.worksheet("Sheet1")
                     if len(spreadsheet.worksheets()) > 1:
@@ -179,38 +202,71 @@ class SheetsExporter:
 
     def _get_tab_rows(self, tab_name: str, session: Session) -> List[List[Any]]:
         if tab_name == "Startups":
-            header = ["canonical_name", "legal_name", "domain", "website", "source_url", "description", "batch", "status", "country", "year_founded", "tags"]
+            header = ["schemaVersion", "recordType", "source_name", "source_url",
+                       "content_entityName", "content_description", "content_data_employeeCount",
+                       "content_batch", "content_status", "content_country", "content_yearFounded",
+                       "content_tags", "content_website", "content_domain", "content_legalName", "collectedAt"]
             rows = [header]
             for s in session.query(StartupModel).all():
-                rows.append([s.canonical_name, s.legal_name or "", s.domain or "", s.website, s.source_url, s.description or "", s.batch or "", s.status or "", s.country or "", s.year_founded or "", s.tags or ""])
+                rows.append([s.schemaVersion or "", s.recordType or "", s.source_name or "", s.source_url or "",
+                             s.content_entityName or "", s.content_description or "",
+                             s.content_data_employeeCount or "", s.content_batch or "",
+                             s.content_status or "", s.content_country or "", s.content_yearFounded or "",
+                             s.content_tags or "", s.content_website or "", s.content_domain or "",
+                             s.content_legalName or "", s.collectedAt or ""])
             return rows
 
         elif tab_name == "Products":
-            header = ["name", "canonical_name", "product_url", "source_url", "description", "category", "stars_or_likes", "created_date"]
+            header = ["schemaVersion", "recordType", "source_name", "source_url",
+                       "content_productName", "content_startupName", "content_pricingModel",
+                       "content_description", "content_category", "content_stars_or_likes",
+                       "content_productUrl", "content_createdDate", "collectedAt"]
             rows = [header]
             for p in session.query(ProductModel).all():
-                rows.append([p.name, p.canonical_name or "", p.product_url, p.source_url, p.description or "", p.category or "", p.stars_or_likes or 0, p.created_date or ""])
+                rows.append([p.schemaVersion or "", p.recordType or "", p.source_name or "", p.source_url or "",
+                             p.content_productName or "", p.content_startupName or "",
+                             p.content_pricingModel or "", p.content_description or "",
+                             p.content_category or "", p.content_stars_or_likes or 0,
+                             p.content_productUrl or "", p.content_createdDate or "", p.collectedAt or ""])
             return rows
 
         elif tab_name == "Research Papers":
-            header = ["title", "paper_url", "source_url", "arxiv_id", "published_date", "abstract", "github_url", "github_stars"]
+            header = ["schemaVersion", "recordType", "source_name", "source_url",
+                       "content_title", "content_authors", "content_paper_url",
+                       "content_github_url", "content_github_stars", "content_published_date",
+                       "content_arxiv_id", "collectedAt"]
             rows = [header]
             for p in session.query(PaperModel).all():
-                rows.append([p.title, p.paper_url, p.source_url, p.arxiv_id or "", p.published_date or "", p.abstract or "", p.github_url, p.github_stars])
+                rows.append([p.schemaVersion or "", p.recordType or "", p.source_name or "", p.source_url or "",
+                             p.content_title or "", p.content_authors or "", p.content_paper_url or "",
+                             p.content_github_url or "", p.content_github_stars or 0,
+                             p.content_published_date or "", p.content_arxiv_id or "", p.collectedAt or ""])
             return rows
 
         elif tab_name == "Jobs":
-            header = ["title", "company_name", "canonical_name", "job_url", "source_url", "location", "salary_range", "published_at", "date_method", "source_name"]
+            header = ["schemaVersion", "recordType", "source_name", "source_url",
+                       "content_title", "content_company", "content_date",
+                       "content_is_remote", "content_role_family", "content_location",
+                       "content_salary_range", "content_jobUrl", "date_method", "collectedAt"]
             rows = [header]
             for j in session.query(JobModel).all():
-                rows.append([j.title, j.company_name, j.canonical_name or "", j.job_url, j.source_url, j.location or "", j.salary_range or "", j.published_at.isoformat() if j.published_at else "", j.date_method, j.source_name])
+                rows.append([j.schemaVersion or "", j.recordType or "", j.source_name or "", j.source_url or "",
+                             j.content_title or "", j.content_company or "", j.content_date or "",
+                             str(j.content_is_remote), j.content_role_family or "", j.content_location or "",
+                             j.content_salary_range or "", j.content_jobUrl or "", j.date_method or "",
+                             j.collectedAt or ""])
             return rows
 
         elif tab_name == "News":
-            header = ["title", "article_url", "source_url", "source_name", "published_at", "date_method", "summary", "mentioned_entities"]
+            header = ["schemaVersion", "recordType", "source_name", "source_url",
+                       "content_title", "content_articleUrl", "content_publishedAt",
+                       "content_summary", "content_mentionedEntities", "date_method", "collectedAt"]
             rows = [header]
             for n in session.query(NewsModel).all():
-                rows.append([n.title, n.article_url, n.source_url, n.source_name, n.published_at.isoformat() if n.published_at else "", n.date_method, n.summary or "", n.mentioned_entities or ""])
+                rows.append([n.schemaVersion or "", n.recordType or "", n.source_name or "", n.source_url or "",
+                             n.content_title or "", n.content_articleUrl or "", n.content_publishedAt or "",
+                             n.content_summary or "", n.content_mentionedEntities or "", n.date_method or "",
+                             n.collectedAt or ""])
             return rows
 
         elif tab_name == "Entity Mapping Log":

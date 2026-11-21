@@ -24,4 +24,3 @@ data/*.db
 data/*.sqlite
 data/*.parquet
 data/*.gz
-output/*.csv

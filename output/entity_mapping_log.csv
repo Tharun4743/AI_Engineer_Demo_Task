@@ -1,0 +1,1051 @@
+raw_name,canonical_name,method,score,source_url
+OpenAI,OpenAI,seed_ground_truth,1.0,config/seed_entities.json
+Anthropic,Anthropic,seed_ground_truth,1.0,config/seed_entities.json
+Cohere,Cohere,seed_ground_truth,1.0,config/seed_entities.json
+Mistral AI,Mistral AI,seed_ground_truth,1.0,config/seed_entities.json
+Perplexity AI,Perplexity AI,seed_ground_truth,1.0,config/seed_entities.json
+Scale AI,Scale AI,seed_ground_truth,1.0,config/seed_entities.json
+Hugging Face,Hugging Face,seed_ground_truth,1.0,config/seed_entities.json
+Runway,Runway,seed_ground_truth,1.0,config/seed_entities.json
+Midjourney,Midjourney,seed_ground_truth,1.0,config/seed_entities.json
+Jasper,Jasper,seed_ground_truth,1.0,config/seed_entities.json
+Inflection AI,Inflection AI,seed_ground_truth,1.0,config/seed_entities.json
+Databricks,Databricks,seed_ground_truth,1.0,config/seed_entities.json
+Character.AI,Character.AI,seed_ground_truth,1.0,config/seed_entities.json
+Synthesia,Synthesia,seed_ground_truth,1.0,config/seed_entities.json
+ElevenLabs,ElevenLabs,seed_ground_truth,1.0,config/seed_entities.json
+Adept,Adept,seed_ground_truth,1.0,config/seed_entities.json
+Cursor,Cursor,seed_ground_truth,1.0,config/seed_entities.json
+Glean,Glean,seed_ground_truth,1.0,config/seed_entities.json
+Pinecone,Pinecone,seed_ground_truth,1.0,config/seed_entities.json
+Weaviate,Weaviate,seed_ground_truth,1.0,config/seed_entities.json
+Qdrant,Qdrant,seed_ground_truth,1.0,config/seed_entities.json
+Chroma,Chroma,seed_ground_truth,1.0,config/seed_entities.json
+Together AI,Together AI,seed_ground_truth,1.0,config/seed_entities.json
+Replicate,Replicate,seed_ground_truth,1.0,config/seed_entities.json
+Fireworks AI,Fireworks AI,seed_ground_truth,1.0,config/seed_entities.json
+Groq,Groq,seed_ground_truth,1.0,config/seed_entities.json
+Cerebras,Cerebras,seed_ground_truth,1.0,config/seed_entities.json
+SambaNova,SambaNova,seed_ground_truth,1.0,config/seed_entities.json
+Modular,Modular,seed_ground_truth,1.0,config/seed_entities.json
+LangChain,LangChain,seed_ground_truth,1.0,config/seed_entities.json
+LlamaIndex,LlamaIndex,seed_ground_truth,1.0,config/seed_entities.json
+Deepgram,Deepgram,seed_ground_truth,1.0,config/seed_entities.json
+AssemblyAI,AssemblyAI,seed_ground_truth,1.0,config/seed_entities.json
+Stability AI,Stability AI,seed_ground_truth,1.0,config/seed_entities.json
+Phind,Phind,seed_ground_truth,1.0,config/seed_entities.json
+Harvey,Harvey,seed_ground_truth,1.0,config/seed_entities.json
+Writer,Writer,seed_ground_truth,1.0,config/seed_entities.json
+Typeface,Typeface,seed_ground_truth,1.0,config/seed_entities.json
+Pika,Pika,seed_ground_truth,1.0,config/seed_entities.json
+Suno,Suno,seed_ground_truth,1.0,config/seed_entities.json
+Udio,Udio,seed_ground_truth,1.0,config/seed_entities.json
+Cognition,Cognition,seed_ground_truth,1.0,config/seed_entities.json
+Poolside,Poolside,seed_ground_truth,1.0,config/seed_entities.json
+Magic,Magic,seed_ground_truth,1.0,config/seed_entities.json
+Baseten,Baseten,seed_ground_truth,1.0,config/seed_entities.json
+Modal,Modal,seed_ground_truth,1.0,config/seed_entities.json
+Weights & Biases,Weights & Biases,seed_ground_truth,1.0,config/seed_entities.json
+OctoAI,OctoAI,seed_ground_truth,1.0,config/seed_entities.json
+Decart,Decart,seed_ground_truth,1.0,config/seed_entities.json
+Sakana AI,Sakana AI,seed_ground_truth,1.0,config/seed_entities.json
+CircuitHub,CircuitHub,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+iCracked,iCracked,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+42Floors,42Floors,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+PlanGrid,PlanGrid,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+WireOver,WireOver,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+The Muse,The Muse,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SendHub,SendHub,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Hipmob,Hipmob,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+MyVR,MyVR,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+HireArt,HireArt,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Amiato,Amiato,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Medigram,Medigram,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+HackPad,HackPad,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Rescale,Rescale,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SlidePay,SlidePay,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Tap to Learn,Tap to Learn,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Optilly/Installmonetizer,OptillyInstallmonetizer,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+BookSolid,BookSolid,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Gusto,Gusto,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+FamilyLeaf,FamilyLeaf,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Marft,Marft,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Minefold,Minefold,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Zipio,Zipio,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Chute,Chute,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Matterport,Matterport,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Shoptiques,Shoptiques,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+CleverDeck,CleverDeck,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Make School,Make School,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Pixelapse,Pixelapse,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Screenleap,Screenleap,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Talkray (TiKL),Talkray TiKL,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Zillabyte,Zillabyte,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Exec,Exec,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Grouper,Grouper,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Amplitude,Amplitude,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Brace,Brace,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Swiftype,Swiftype,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+BarSense,BarSense,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+FarmLogs,FarmLogs,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+99dresses,99dresses,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Authy,Authy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Flutter,Flutter,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Fond,Fond,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Per Vices,Per Vices,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Documents.Me,DocumentsMe,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Ark,Ark,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SolidStage,SolidStage,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+YourMechanic,YourMechanic,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Priceonomics,Priceonomics,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Sendwave,Sendwave,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Glider,Glider,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Medmonk,Medmonk,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Carsabi,Carsabi,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Socialcam,Socialcam,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+GiveSpark,GiveSpark,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Shopular,Shopular,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Picplum,Picplum,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Freshplum,Freshplum,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Apollo,Apollo,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+HackerRank,HackerRank,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Stypi,Stypi,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Genius,Genius,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+OneSignal,OneSignal,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Zigfu,Zigfu,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+PayDragon,PayDragon,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Aisle50,Aisle50,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Proxino,Proxino,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Streak,Streak,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Science Exchange,Science Exchange,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+PhoneSys,PhoneSys,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Quartzy,Quartzy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Codecademy,Codecademy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Cryptoseal,Cryptoseal,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Segment,Segment,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Citus Data,Citus Data,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+AgileMD,AgileMD,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Clerky,Clerky,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Quad,Quad,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Dubjoy,Dubjoy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Zenbox,Zenbox,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Realm,Realm,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Firebase,Firebase,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+GoCardless,GoCardless,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Pagelever,Pagelever,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+MarketBrief,MarketBrief,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Fobo,Fobo,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Sift,Sift,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Verbling,Verbling,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Embark,Embark,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+LeadGenius,LeadGenius,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Caviar,Caviar,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Interstate,Interstate,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Everyme,Everyme,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Opez,Opez,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+MixRank,MixRank,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Videopixie,Videopixie,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Vapor,Vapor,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Launchpad Toys,Launchpad Toys,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Imgix,Imgix,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Compose,Compose,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+GlassMap,GlassMap,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Vidyard,Vidyard,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Leaky,Leaky,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Snapjoy,Snapjoy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Perfect Audience,Perfect Audience,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Rentobo,Rentobo,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Draft,Draft,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Parse,Parse,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Zeus,Zeus,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Userfox,Userfox,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Hungry Labs,Hungry,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Inporia,Inporia,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Upverter,Upverter,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SingleStore,SingleStore,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Beetailer,Beetailer,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+TellFi,TellFi,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Talkable,Talkable,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+FitFu,FitFu,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+AppHarbor,AppHarbor,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Tumult,Tumult,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Earbits,Earbits,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Acunote,Acunote,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Sendoid,Sendoid,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+HelloSign,HelloSign,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Instapainting,Instapainting,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+You Got Listings,You Got Listings,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Hotspots,Hotspots,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Tremendous,Tremendous,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Custora,Custora,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Comprehend,Comprehend,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Humble Bundle,Humble Bundle,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Pebble,Pebble,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Hyperink,Hyperink,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Insight Data Science,Insight Data Science,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Convore,Convore,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Flotype,Flotype,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Fivestars,Fivestars,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Apportable,Apportable,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Close,Close,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Balanced,Balanced,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Mailgun,Mailgun,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Mino Games,Mino Games,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Lanyrd,Lanyrd,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+TrustEgg,TrustEgg,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Siasto,Siasto,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+GOAT Group,GOAT Group,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+OrderAhead,OrderAhead,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+DrChrono,DrChrono,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Zerocater,Zerocater,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Storyworth,Storyworth,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+TalkBin,TalkBin,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Venuetastic,Venuetastic,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Chartio,Chartio,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Presto,Presto,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Hipmunk,Hipmunk,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Teevox,Teevox,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Rapportive,Rapportive,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Recurse Center,Recurse Center,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Simperium,Simperium,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+AeroFS,AeroFS,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Chirply,Chirply,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+PadMapper,PadMapper,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+DemandSphere,DemandSphere,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+AnyList,AnyList,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Brushes,Brushes,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+1000Memories,1000Memories,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+GazeHawk,GazeHawk,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Upbeat,Upbeat,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Opzi,Opzi,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+FutureAdvisor,FutureAdvisor,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Docker,Docker,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+inDinero,inDinero,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+WorkFlowy,WorkFlowy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+PagerDuty,PagerDuty,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Ready For Zero,Ready For Zero,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+MessageParty,MessageParty,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Fanvibe,Fanvibe,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Fridge,Fridge,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Whereoscope,Whereoscope,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Pribbit,Pribbit,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Koduco,Koduco,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+500Friends,500Friends,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+All Screen,All Screen,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Crocodoc,Crocodoc,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Fabricly,Fabricly,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Embedly,Embedly,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Creative Market,Creative Market,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Nowmov,Nowmov,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Optimizely,Optimizely,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Zencoder,Zencoder,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Cue,Cue,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Answerly,Answerly,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+OwnLocal,OwnLocal,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Zenedy,Zenedy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Fithub,Fithub,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Cardpool,Cardpool,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Newslabs,Newslabs,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Infoharmoni,Infoharmoni,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Notifo,Notifo,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Listia,Listia,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Stripe,Stripe,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+DailyBooth,DailyBooth,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Bump,Bump,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+WePay,WePay,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Directed Edge,Directed Edge,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+RethinkDB,RethinkDB,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Jobspice,Jobspice,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Mixpanel,Mixpanel,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Olark,Olark,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Lockitron,Lockitron,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+CarWoo,CarWoo,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Tuxebo,Tuxebo,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Fanchatter,Fanchatter,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Plurchase,Plurchase,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+NudgePad,NudgePad,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+RentHop,RentHop,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Lingt,Lingt,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+RoboHR,RoboHR,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+AdThrow,AdThrow,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Stackq,Stackq,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Wakemate,Wakemate,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Instantq,Instantq,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Skysheet,Skysheet,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Heyzap,Heyzap,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Wattvision,Wattvision,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Volantio,Volantio,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Airbnb,Airbnb,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Divvyshot,Divvyshot,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+reMail,reMail,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Echodio,Echodio,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Cloudkick,Cloudkick,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Spaces Life,Spaces Life,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Picurio,Picurio,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Nambii,Nambii,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Voxli,Voxli,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+PetaSales,PetaSales,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Posterous,Posterous,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Poll Everywhere,Poll Everywhere,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+OhLife,OhLife,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Cloudant,Cloudant,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Job Alchemist,Job Alchemist,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Frogmetrics,Frogmetrics,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Anyvite,Anyvite,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+CO2Stats,CO2Stats,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+JustSpotted,JustSpotted,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Picwing,Picwing,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+BackType,BackType,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Precognate,Precognate,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Youlicit,Youlicit,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Team Apart,Team Apart,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Claimspotting,Claimspotting,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Ticket Stumbler,Ticket Stumbler,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Popcuts,Popcuts,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+PlayReader,PlayReader,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Treehouse,Treehouse,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Slinkset,Slinkset,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Trigger,Trigger,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+RescueTime,RescueTime,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+A Thinking Ape,A Thinking Ape,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Ninite,Ninite,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Machine Zone,Machine Zone,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+MightyQuiz,MightyQuiz,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+FathomDB,FathomDB,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Omnisio,Omnisio,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Heroku,Heroku,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Socialbrowse,Socialbrowse,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Mixwit,Mixwit,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Tipjoy,Tipjoy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Kirkland North,Kirkland North,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Deluux,Deluux,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+YumDots,YumDots,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Insoshi,Insoshi,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Joberator,Joberator,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Songkick,Songkick,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Dropbox,Dropbox,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Blue Frog Gaming,Blue Frog Gaming,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Disqus,Disqus,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Bountii,Bountii,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Hello Chair,Hello Chair,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+ContestMachine,ContestMachine,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SocialPicks,SocialPicks,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Clickpass,Clickpass,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Appjet,Appjet,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Anywhere.FM,AnywhereFM,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Reble,Reble,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Meetyu,Meetyu,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Fuzzwich,Fuzzwich,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Eivod,Eivod,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Biographicon,Biographicon,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Virtualmin,Virtualmin,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Weebly,Weebly,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Tsumobi,Tsumobi,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Octopart,Octopart,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Buxfer,Buxfer,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Zenter,Zenter,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Auctomatic,Auctomatic,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+WriteWith,WriteWith,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Whitenoise,Whitenoise,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Socialmoth,Socialmoth,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Xobni,Xobni,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Scribd,Scribd,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+OMGPop,OMGPop,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Jamglue,Jamglue,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Thinkature,Thinkature,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Shoutfit,Shoutfit,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Pollground,Pollground,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Zanbazaar,Zanbazaar,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Jumpchat,Jumpchat,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Inkling,Inkling,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Clustrix,Clustrix,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Snipshot,Snipshot,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Project Wedding,Project Wedding,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Wufoo,Wufoo,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Flagr,Flagr,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Audiobeta,Audiobeta,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Loopt,Loopt,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+TextPayMe,TextPayMe,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Simmery,Simmery,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Memamp,Memamp,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Reddit,Reddit,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Infogami,Infogami,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Twitch,Twitch,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Pixate,Pixate,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Knowmia,Knowmia,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Boosted,Boosted,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+ZeroMailer,ZeroMailer,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Canopy Labs,Canopy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+LeanMarket,LeanMarket,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Rainforest,Rainforest,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Fullstack Academy,Fullstack Academy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+OmniVirt,OmniVirt,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Arc,Arc,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Mth Sense,Mth Sense,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Human Dx,Human Dx,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Testmunk,Testmunk,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+HealthSherpa,HealthSherpa,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Framebase,Framebase,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Mattermost,Mattermost,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SnapBite,SnapBite,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Zentail,Zentail,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Soylent,Soylent,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+DataNitro,DataNitro,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Clever,Clever,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SmartAsset,SmartAsset,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+FundersClub,FundersClub,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Eligible,Eligible,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Crohnology (by Healthy Labs),Crohnology by Healthy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+BrainTripping,BrainTripping,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Markupwand,Markupwand,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Hiptype,Hiptype,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Kippt,Kippt,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Easel,Easel,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Hipset,Hipset,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+FileStack,FileStack,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Dreamforge,Dreamforge,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Upwave,Upwave,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Lever,Lever,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+ReelSurfer,ReelSurfer,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Keychain Logistics,Keychain Logistics,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+OctaveWealth,OctaveWealth,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+BufferBox,BufferBox,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Natero,Natero,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Profig,Profig,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+NewsBlur,NewsBlur,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Coinbase,Coinbase,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Submittable,Submittable,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Mattermark,Mattermark,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Zapier,Zapier,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+VoiceGem,VoiceGem,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+BackerKit,BackerKit,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Benchling,Benchling,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Flightfox,Flightfox,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Coco Controller,Coco Controller,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Tastemaker,Tastemaker,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+GoScale,GoScale,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+RegistryLove,RegistryLove,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+MicroEval,MicroEval,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Everyday.me,Everydayme,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Celery,Celery,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Virool,Virool,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Parallel Universe,Parallel Universe,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Viacycle,Viacycle,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Assorted Bits,Assorted Bits,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Scoutzie,Scoutzie,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Vastrm,Vastrm,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Double Robotics,Double Robotics,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Study Edge,Study Edge,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Plivo,Plivo,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Thread,Thread,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Light Table/Eve,Light TableEve,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Svbtle,Svbtle,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Instacart,Instacart,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+9gag,9gag,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+CircuitLab,CircuitLab,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Screenhero,Screenhero,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Scuba,Scuba,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+North,North,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+VaycayHero,VaycayHero,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+BuildZoom,BuildZoom,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Trainzen,Trainzen,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Padlet,Padlet,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Fivetran,Fivetran,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+GrepData,GrepData,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Lawdingo,Lawdingo,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Bitnami,Bitnami,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Cheetah,Cheetah,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Medisas,Medisas,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Etleap,Etleap,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+RoverRide,RoverRide,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+InfluxData,InfluxData,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Strikingly,Strikingly,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Lollipuff,Lollipuff,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+RADAR,RADAR,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+BeatDeck,BeatDeck,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Swapbox,Swapbox,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Experiment,Experiment,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Heap,Heap,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+MedXT,MedXT,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SimplyInsured,SimplyInsured,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Wefunder,Wefunder,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Wevorce,Wevorce,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Kalibrr,Kalibrr,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Zenefits,Zenefits,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Goldbelly,Goldbelly,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Logiblock,Logiblock,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Semantics3,Semantics3,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Teespring,Teespring,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Airware,Airware,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Posmetrics,Posmetrics,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Prophecy Sciences,Prophecy Sciences,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Watsi,Watsi,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+7cups,7cups,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+URX,URX,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Teleborder,Teleborder,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+FanHero,FanHero,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Apptimize,Apptimize,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Asseta,Asseta,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+BloomThat,BloomThat,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+StackMachine,StackMachine,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Hackermeter,Hackermeter,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Buttercoin,Buttercoin,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+CoreOS,CoreOS,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Crowdery,Crowdery,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+GoComm,GoComm,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+DoorDash,DoorDash,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+EasyPost,EasyPost,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SimpleLegal,SimpleLegal,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+"Estimote, Inc.",Estimote,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Glio,Glio,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Cratejoy,Cratejoy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SpoonRocket,SpoonRocket,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Casetext,Casetext,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Layer By Layer,Layer By Layer,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Le Tote,Le Tote,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+LocalOn,LocalOn,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Senic,Senic,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Meta,Meta,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+One Month,One Month,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Panorama Education,Panorama Education,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Watchsend,Watchsend,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Lob,Lob,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Amulyte,Amulyte,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+RealCrowd,RealCrowd,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Reebee,Reebee,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Arcus,Arcus,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Bop.fm,Bopfm,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+StatusPage,StatusPage,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+True Link,True Link,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Datarank,Datarank,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Kivo,Kivo,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Webflow,Webflow,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Weilos,Weilos,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Echo Locker,Echo Locker,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+42,42,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Abacus,Abacus,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Boostable,Boostable,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+AirHelp,AirHelp,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Two Tap,Two Tap,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Ambition,Ambition,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+CareMessage,CareMessage,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+AptDeco,AptDeco,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Awesometalk,Awesometalk,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Bellabeat,Bellabeat,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Chargehound,Chargehound,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Cambly,Cambly,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Camperoo,Camperoo,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Noora Health,Noora Health,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+CodeCombat,CodeCombat,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+CodeNow,CodeNow,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Threadable,Threadable,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Cruise,Cruise,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Dating Ring,Dating Ring,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Yumbin,Yumbin,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Drive Pulse,Drive Pulse,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Eventjoy,Eventjoy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Flexport,Flexport,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Axoni,Axoni,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Kimono Labs,Kimono,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Kuna Systems,Kuna,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+DevCycle,DevCycle,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+MadeSolid,MadeSolid,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Emailio,Emailio,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+MBX,MBX,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Motionlead,Motionlead,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Move Loot,Move Loot,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Next Caller,Next Caller,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+HoverChat,HoverChat,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+One Degree,One Degree,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+StackLead,StackLead,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Theorem,Theorem,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Liftigniter,Liftigniter,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+PiinPoint,PiinPoint,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Povio,Povio,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Pushbullet,Pushbullet,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Rickshaw,Rickshaw,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Rocketrip,Rocketrip,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Shoobs,Shoobs,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SketchDeck,SketchDeck,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+MerryMint,MerryMint,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Snapdocs,Snapdocs,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Shopagram,Shopagram,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Edyn,Edyn,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Guesty,Guesty,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Terravion,Terravion,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+TrueVault,TrueVault,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Weave,Weave,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Wit.ai,Witai,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Zidisha,Zidisha,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Zinc,Zinc,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+ZowPow,ZowPow,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Algolia,Algolia,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Gobble,Gobble,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+AirPair,AirPair,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+GBatteries,GBatteries,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Unbabel,Unbabel,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+MixerBox,MixerBox,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+OpenCurriculum,OpenCurriculum,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Dyspatch,Dyspatch,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Avametric,Avametric,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Framed Data,Framed Data,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Vidpresso,Vidpresso,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Aptible,Aptible,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Zip Phone,Zip Phone,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Backpack,Backpack,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Bannerman,Bannerman,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Parenthoods,Parenthoods,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SpringWit,SpringWit,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Bikanta,Bikanta,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Billforward,Billforward,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Bitaccess,Bitaccess,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Checkr,Checkr,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Clara Labs,Clara,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Clear,Clear,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Craft Coffee,Craft Coffee,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+PersistIQ,PersistIQ,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Doblet,Doblet,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Flaviar,Flaviar,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Flytenow,Flytenow,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Hyperpad,Hyperpad,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+GovPredict,GovPredict,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Blockspring,Blockspring,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Greentoe,Greentoe,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Protocol Labs,Protocol,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Kash,Kash,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Lawn Love,Lawn Love,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+ListRunner,ListRunner,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Replenish,Replenish,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+MetricWire,MetricWire,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+MTailor,MTailor,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Naytev,Naytev,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Alchemy,Alchemy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Permutive,Permutive,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+PicnicAI,PicnicAI,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Product Hunt,Product Hunt,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Cheddar,Cheddar,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Rigetti Computing,Rigetti Computing,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Roost,Roost,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SFOX,SFOX,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+UserGems,UserGems,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+ShipBob,ShipBob,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Shout,Shout,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SalesSift,SalesSift,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SpotAngels,SpotAngels,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+HauteDay,HauteDay,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Tenjin,Tenjin,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Paid,Paid,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Think Gaming,Think Gaming,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Hive,Hive,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Payable,Payable,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Tinker,Tinker,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Tule,Tule,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Roomstorm,Roomstorm,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Weave,Weave,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Whirl,Whirl,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Women.com,Womencom,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Beep,Beep,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Front,Front,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Cognito,Cognito,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Ginkgo Bioworks,Ginkgo Bioworks,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Helion Energy,Helion Energy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Oklo,Oklo,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Bayes Impact,Bayes Impact,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Zenamins,Zenamins,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+One Codex,One Codex,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Ravti,Ravti,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Unwind Me,Unwind Me,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Notable Labs,Notable,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Qventus,Qventus,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+3dot,3dot,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Final,Final,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Pomello,Pomello,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Tech in Asia,Tech in Asia,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+20n,20n,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Akido Labs,Akido,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Mezmo,Mezmo,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Smyte,Smyte,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Magic,Magic,normalized_exact,1.0,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Bizzy,Bizzy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Bluesmart,Bluesmart,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Booktrope,Booktrope,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Bright,Bright,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Numerion Labs,Numerion,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Cribspot,Cribspot,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+CyberFend,CyberFend,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Democracy Earth,Democracy Earth,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+The Human Utility,The Human Utility,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Zeitview,Zeitview,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Bankjoy,Bankjoy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+GiveMeTap,GiveMeTap,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SparkGift,SparkGift,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+GrubMarket,GrubMarket,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+WorkLife,WorkLife,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+HigherMe,HigherMe,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Kickpay,Kickpay,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Labdoor,Labdoor,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Platzi,Platzi,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Omniref,Omniref,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Open Listings,Open Listings,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Pachyderm,Pachyderm,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Pakible,Pakible,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Paperspace,Paperspace,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+BuildScience,BuildScience,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+ReadMe,ReadMe,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+ReSchedule Med,ReSchedule Med,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Shift Labs,Shift,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Sails Co.,Sails Co,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SIRUM,SIRUM,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Smarking,Smarking,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Tempo,Tempo,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+TeamNote,TeamNote,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Makrwatch,Makrwatch,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Mobydish,Mobydish,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Remix,Remix,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Rare Door,Rare Door,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Underground Cellar,Underground Cellar,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Vest,Vest,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Resolve,Resolve,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+YesGraph,YesGraph,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Yhat,Yhat,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Bonfire,Bonfire,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+WayUp,WayUp,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Cleanly,Cleanly,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Dealyze,Dealyze,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Lucira Health,Lucira Health,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Quantierra,Quantierra,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+eBrandvalue,eBrandvalue,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+EquipmentShare,EquipmentShare,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+GitLab,GitLab,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Giveffect,Giveffect,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Industrial Microbes,Industrial Microbes,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+NexTravel,NexTravel,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Level Frames,Level Frames,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Meadow,Meadow,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Moltin,Moltin,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Nextop,Nextop,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Outbound,Outbound,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Dabble,Dabble,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Pigeonly,Pigeonly,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Popular Pays,Popular Pays,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Pretty Instant,Pretty Instant,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Razorpay,Razorpay,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Rescue Forensics,Rescue Forensics,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Seed,Seed,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SigOpt,SigOpt,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Standard Cyborg,Standard Cyborg,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Tab,Tab,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Zenflow,Zenflow,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Transcriptic,Transcriptic,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Valor Water Analytics,Valor Water Analytics,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Vanhawks,Vanhawks,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+VetPronto,VetPronto,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Wink Health,Wink Health,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+X-Zell,X-Zell,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Raven Tech,Raven Tech,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Flip,Flip,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Tara AI,Tara AI,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Replika,Replika,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Automate Ads,Automate Ads,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+NimbleRx,NimbleRx,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Nomiku,Nomiku,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Spire Health,Spire Health,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+ThinAir,ThinAir,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Lumi,Lumi,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Mashgin,Mashgin,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Triplebyte,Triplebyte,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Lugg,Lugg,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Teleport,Teleport,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Serica,Serica,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+teaBOT,teaBOT,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Leaders In Tech,Leaders In Tech,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Ironclad,Ironclad,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Jopwell,Jopwell,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+L.,L,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+New Story,New Story,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+OpenInvest,OpenInvest,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Gemnote,Gemnote,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Assembly,AssemblyAI,token_similarity,0.8,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+PartnerStack,PartnerStack,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+ROSS Intelligence,ROSS Intelligence,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Scope AR,Scope AR,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Second Measure,Second Measure,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SnapMagic,SnapMagic,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SourceDNA,SourceDNA,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Vernox,Vernox,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Hickory,Hickory,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Heroic Labs,Heroic,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Airmada,Airmada,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Call9,Call9,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+CareLedger,CareLedger,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Branch8,Branch8,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Confident LIMS,Confident LIMS,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Convox,Convox,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Cymmetria,Cymmetria,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Shotput,Shotput,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Eden,Eden,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Foxpass,Foxpass,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SunFarmer,SunFarmer,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Stitch Health,Stitch Health,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Reach,Reach,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Tesorio,Tesorio,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Thrive Agritech,Thrive Agritech,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Verge Genomics,Verge Genomics,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Afrostream,Afrostream,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Willing,Willing,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Bistrobot,Bistrobot,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Bluecrew,Bluecrew,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Bodyport,Bodyport,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Appcanary,Appcanary,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Chaldal,Chaldal,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Cloudstitch,Cloudstitch,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Drip Capital,Drip Capital,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+GiveCampus,GiveCampus,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Circle Medical,Circle Medical,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+zPREDICTA,zPREDICTA,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+jEugene,jEugene,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Leada,Leada,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Locent,Locent,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Markhor,Markhor,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Zeplin,Zeplin,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Microhealth,Microhealth,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Ohm,Ohm,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Fountain,Fountain,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Oolu,Oolu,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+PickTrace,PickTrace,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Prayas Analytics,Prayas Analytics,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Plate IQ,Plate IQ,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+RedCarpetUp,RedCarpetUp,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Reduced Energy Microsystems,Reduced Energy Microsystems,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Scentbird,Scentbird,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Seva Coffee,Seva Coffee,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Shape (ShapeScale),Shape ShapeScale,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Shred Video,Shred Video,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Xendit,Xendit,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Xfers,Xfers,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Traversal Networks,Traversal Networks,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+"80,000 Hours",80000 Hours,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Font Awesome,Font Awesome,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Go1,Go1,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+HER,HER,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Maderight,Maderight,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Blitz Esports,Blitz Esports,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+The Ticket Fairy,The Ticket Fairy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Fetch,Fetch,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Wheelys Café,Wheelys Café,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+TetraScience,TetraScience,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Mimir,Mimir,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Auro Robotics,Auro Robotics,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Nebia,Nebia,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+PlateJoy,PlateJoy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Bitmovin,Bitmovin,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Cofactor Genomics,Cofactor Genomics,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Instawork,Instawork,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Eight Sleep,Eight Sleep,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Human Interest,Human Interest,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Halolife,Halolife,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Tenant Turner,Tenant Turner,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+VOIQ,VOIQ,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Gigster,Gigster,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Mux,Mux,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Lattice,Lattice,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SOUNDBOKS,SOUNDBOKS,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Compgun,Compgun,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Stealth Worker,Stealth Worker,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Stilt,Stilt,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Embark Trucks,Embark Trucks,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+VINEBOX (Usual Beverage Co.),VINEBOX Usual Beverage Co,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Yardbook,Yardbook,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Chatfuel,Chatfuel,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+AlphaFlow,AlphaFlow,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+GetAccept,GetAccept,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+iSono Health,iSono Health,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Tovala,Tovala,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+MagicBus,MagicBus,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Mason,Mason,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Outschool,Outschool,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Petcube,Petcube,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Daily,Daily,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Mio,Mio,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Algoriz,Algoriz,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Focal Systems,Focal,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Toymail,Toymail,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Able Health,Able Health,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Truebill,Truebill,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Chillabit,Chillabit,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Deako,Deako,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+DoseDr,DoseDr,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Copia,Copia,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Gigwell,Gigwell,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+InnoVein,InnoVein,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Inevitable Tech,Inevitable Tech,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+LendEDU,LendEDU,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Luminist Labs,Luminist,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Meter Feeder,Meter Feeder,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+MineralSoft,MineralSoft,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+PocketSuite,PocketSuite,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Pulpix,Pulpix,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Revl,Revl,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Paystack,Paystack,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Bus.com,Buscom,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Unima,Unima,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Goodybag,Goodybag,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Open Motors,Open Motors,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Start Closing,Start Closing,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+MailTime,MailTime,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Monthli,Monthli,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Opentrons,Opentrons,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Castle,Castle,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Netomi,Netomi,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Superside,Superside,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+ConstructVR,ConstructVR,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Function of Beauty,Function of Beauty,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Luciq (formerly Instabug),Luciq formerly Instabug,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Interstate Analytics,Interstate Analytics,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Patchwork Security,Patchwork Security,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Pave,Pave,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Podium,Podium,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Salt Security,Salt Security,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Apollo.io,Apolloio,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Poppy,Poppy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Anchor Health,Anchor Health,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Thunkable,Thunkable,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Plato,Plato,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Lynks,Lynks,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Emburse,Emburse,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Gecko Robotics,Gecko Robotics,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+GoLorry,GoLorry,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+HistoWiz,HistoWiz,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Landed,Landed,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+mRelief,mRelief,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+NetBeez,NetBeez,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Redspread,Redspread,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Caper,Caper,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+TRAC,TRAC,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Envyl,Envyl,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Cover,Cover,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Carbic,Carbic,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Georgette Packaging,Georgette Packaging,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+FightCamp,FightCamp,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Kisan Network,Kisan Network,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+NURX,NURX,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Quilt Data,Quilt Data,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Real Artists,Real Artists,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Restocks,Restocks,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Sanitation and Health Rights in India (SHRI),Sanitation and Health Rights in India SHRI,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Silver,Silver,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Pathmind,Pathmind,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+UroDev Medical,UroDev Medical,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Unnyhog,Unnyhog,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Wakie,Wakie,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Sendbird,Sendbird,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Relativity Space,Relativity Space,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Boom,Boom,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Protonet,Protonet,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+StrongIntro,StrongIntro,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Nova,Nova,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Streamup,Streamup,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Bonsai,Bonsai,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+flexEngage,flexEngage,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Hingeto,Hingeto,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+GitPrime,GitPrime,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Astranis,Astranis,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+PhysioHealth,PhysioHealth,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Zenysis,Zenysis,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Lygos,Lygos,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+DevColor,DevColor,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Kip Health,Kip Health,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Perlara,Perlara,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Qvin,Qvin,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Rappi,Rappi,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+BillionToOne,BillionToOne,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Direct Match,Direct Match,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Mindori,Mindori,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Prime Lightworks,Prime Lightworks,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Seneca Systems,Seneca,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+NuCypher (aka Threshold Network),NuCypher aka Threshold Network,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Vetcove,Vetcove,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SmartSite,SmartSite,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Selfycart,Selfycart,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+WorkRamp,WorkRamp,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+CareRev,CareRev,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Joy,Joy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Raptor Maps,Raptor Maps,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Upgraded,Upgraded,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Hellobill,Hellobill,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Vote.org,Voteorg,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Rose Rocket,Rose Rocket,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Farmstead,Farmstead,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+RigPlenish,RigPlenish,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Livement,Livement,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SimpleCitizen,SimpleCitizen,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+RocketLit,RocketLit,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+AmberBox Gunshot Detection,AmberBox Gunshot Detection,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Hush,Hush,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Iris Automation,Iris Automation,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Opsolutely,Opsolutely,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Metapacket,Metapacket,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Instrumentl,Instrumentl,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Nova Credit,Nova Credit,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+OneChronos,OneChronos,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Looklive,Looklive,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Haywheel,Haywheel,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+The Flex Company,The Flex Company,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Techmate,Techmate,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+CoinTent,CoinTent,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Women Who Code,Women Who Code,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Multiply Labs,Multiply,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Fabric,Fabric,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Shield Bio,Shield Bio,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Clip Health,Clip Health,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+garten,garten,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Mosaix.ai,Mosaixai,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Burrow,Burrow,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Robby Technologies,Robby,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Coub,Coub,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Kenota (formerly ExVivo Labs),Kenota formerly ExVivo,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Symple,Symple,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Vidcode,Vidcode,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+New Incentives,New Incentives,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+NeoWize,NeoWize,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Sage Care,Sage Care,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Legalist,Legalist,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Synvivia,Synvivia,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+HiOperator,HiOperator,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+GoGoGrandparent,GoGoGrandparent,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Bulldozair,Bulldozair,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Meesho,Meesho,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Drivezy,Drivezy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Seerslab,Seerslab,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Squire Technologies,Squire,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+The Athletic,The Athletic,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Miso,Miso,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Athelas,Athelas,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Airfordable,Airfordable,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Validere,Validere,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Curtsy,Curtsy,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+SmartPath,SmartPath,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Scanate/Fellow,ScanateFellow,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Xberts,Xberts,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Emote,Emote,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Abundance Labs,Abundance,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Flutterwave,Flutterwave,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+CrowdAI,CrowdAI,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Ready Education,Ready Education,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Circa,Circa,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Saleswhale,Saleswhale,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Polymail,Polymail,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Scale AI,Scale AI,domain_exact,1.0,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+OMG Digital,OMG Digital,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Yoshi Mobility,Yoshi Mobility,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+People.ai,Peopleai,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+ApolloShield,ApolloShield,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Ubiq,Ubiq,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Lendsnap,Lendsnap,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Reebeez,Reebeez,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Quero Education,Quero Education,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Jumpcut,Jumpcut,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Innov8,Innov8,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Suiteness,Suiteness,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Elemeno Health,Elemeno Health,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json
+Expo,Expo,clean_fallback,0.7,https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json

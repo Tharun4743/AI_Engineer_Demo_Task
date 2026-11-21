@@ -1,6 +1,7 @@
 import asyncio
 import json
 import os
+from datetime import datetime, timezone
 from typing import List, Optional
 from src.core.http import http_client
 from src.core.models import Startup, EntityMappingLog
@@ -29,6 +30,8 @@ class StartupsCrawler:
             with open(seed_path, "r", encoding="utf-8") as f:
                 seeds = json.load(f)
 
+            now_iso = datetime.now(timezone.utc).isoformat()
+
             for item in seeds:
                 website = f"https://{item['domain']}" if not item["domain"].startswith("http") else item["domain"]
                 if not deduplicator.mark_seen(website):
@@ -36,23 +39,27 @@ class StartupsCrawler:
 
                 canonical_name = item["canonical_name"]
                 startup = Startup(
-                    canonical_name=canonical_name,
-                    legal_name=item["aliases"][0] if item.get("aliases") else canonical_name,
-                    domain=item.get("domain"),
-                    website=website,
+                    schemaVersion="1.0",
+                    recordType="STARTUP",
+                    source_name="Seed Entities",
                     source_url="config/seed_entities.json",
-                    description=f"{canonical_name} - Frontier Artificial Intelligence Company",
-                    batch="Seed",
-                    status="Active",
-                    country=item.get("country", "USA"),
-                    year_founded=item.get("year_founded"),
-                    tags=["AI", "Frontier", "Machine Learning"],
+                    content_entityName=canonical_name,
+                    content_description=f"{canonical_name} - Frontier Artificial Intelligence Company",
+                    content_data_employeeCount=item.get("employee_count"),
+                    content_batch="Seed",
+                    content_status="Active",
+                    content_country=item.get("country", "USA"),
+                    content_yearFounded=item.get("year_founded"),
+                    content_tags=["AI", "Frontier", "Machine Learning"],
+                    content_website=website,
+                    content_domain=item.get("domain"),
+                    content_legalName=item["aliases"][0] if item.get("aliases") else canonical_name,
+                    collectedAt=now_iso,
                     raw_extracted_text=f"{canonical_name} ({website}) founded in {item.get('year_founded')}",
                 )
                 collected.append(startup)
                 db_manager.save_startup(startup)
 
-                # Log entity mapping
                 mapping_log = EntityMappingLog(
                     raw_name=canonical_name,
                     canonical_name=canonical_name,
@@ -78,6 +85,8 @@ class StartupsCrawler:
                 logger.error("YC dataset did not return a JSON array.")
                 return collected
 
+            now_iso = datetime.now(timezone.utc).isoformat()
+
             for item in data:
                 website = item.get("website")
                 name = item.get("name")
@@ -99,18 +108,31 @@ class StartupsCrawler:
                 tags = item.get("tags") or []
                 desc = item.get("oneLiner") or item.get("longDescription") or f"{name} technology company"
 
+                team_size = item.get("teamSize")
+                employee_count = None
+                if team_size is not None:
+                    try:
+                        employee_count = int(team_size)
+                    except (ValueError, TypeError):
+                        employee_count = None
+
                 startup = Startup(
-                    canonical_name=canonical_name,
-                    legal_name=name,
-                    domain=entity_resolver._extract_domain(website),
-                    website=website,
+                    schemaVersion="1.0",
+                    recordType="STARTUP",
+                    source_name="YC Directory",
                     source_url=YC_COMPANIES_URL,
-                    description=desc,
-                    batch=item.get("batch"),
-                    status=item.get("status", "Active"),
-                    country=item.get("country"),
-                    year_founded=item.get("yearFounded"),
-                    tags=tags,
+                    content_entityName=canonical_name,
+                    content_description=desc,
+                    content_data_employeeCount=employee_count,
+                    content_batch=item.get("batch"),
+                    content_status=item.get("status", "Active"),
+                    content_country=item.get("country"),
+                    content_yearFounded=item.get("yearFounded"),
+                    content_tags=tags,
+                    content_website=website,
+                    content_domain=entity_resolver._extract_domain(website),
+                    content_legalName=name,
+                    collectedAt=now_iso,
                     raw_extracted_text=f"{name} ({website}) - {desc}. Batch: {item.get('batch')}",
                 )
                 collected.append(startup)
