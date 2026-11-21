@@ -2,6 +2,9 @@
 
 Production-ready, distributed, asynchronous intelligence pipeline for automated ingestion, grounding validation, entity resolution, and synchronized multi-sink publishing across the artificial intelligence ecosystem.
 
+- **Live Google Sheet Dashboard (6 Tabs)**: [FrontierAtlas Dashboard](https://docs.google.com/spreadsheets/d/1NBvDUVfU9koTYhPR03eda0DGdKY3Hix9xAFDsDEUAcY/edit)
+- **GitHub Repository**: [Tharun4743/frontier-atlas-ai-pipeline](https://github.com/Tharun4743/frontier-atlas-ai-pipeline)
+
 ---
 
 ## 1. System Architecture
