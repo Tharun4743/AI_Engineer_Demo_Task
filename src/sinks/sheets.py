@@ -40,7 +40,10 @@ class SheetsExporter:
         self.sheet_id = os.environ.get("GOOGLE_SHEET_ID")
 
     def export_csv_backups(self) -> Dict[str, str]:
-        """Dumps all 6 database tables to CSV backup files."""
+        """Dumps all 6 database tables to CSV backup files after pruning expired temporal records."""
+        # Prune expired temporal records (>24h) prior to export
+        db_manager.prune_expired_temporal_records(max_age_hours=24)
+
         session: Session = db_manager.Session()
         exported_files: Dict[str, str] = {}
 

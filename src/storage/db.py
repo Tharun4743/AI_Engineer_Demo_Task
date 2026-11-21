@@ -1,6 +1,7 @@
 import os
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from typing import List, Optional
+from dateutil import parser as dateutil_parser
 from sqlalchemy import (
     create_engine,
     Column,
@@ -14,6 +15,7 @@ from sqlalchemy import (
     Index,
 )
 from sqlalchemy.orm import declarative_base, sessionmaker, scoped_session
+from src.core.logging import logger
 
 Base = declarative_base()
 
@@ -333,6 +335,54 @@ class DatabaseManager:
                 "news": session.query(NewsModel).count(),
                 "entity_mapping_log": session.query(EntityMappingLogModel).count(),
             }
+        finally:
+            session.close()
+
+    def prune_expired_temporal_records(self, max_age_hours: int = 24) -> dict:
+        """Purges jobs and news records published older than max_age_hours or outside temporal window."""
+        session = self.Session()
+        try:
+            now = datetime.now(timezone.utc)
+            cutoff = now - timedelta(hours=max_age_hours)
+            future_cutoff = now + timedelta(minutes=10)
+
+            # Prune jobs
+            jobs = session.query(JobModel).all()
+            pruned_jobs = 0
+            for j in jobs:
+                try:
+                    dt = dateutil_parser.isoparse(j.content_date)
+                    if dt.tzinfo is None:
+                        dt = dt.replace(tzinfo=timezone.utc)
+                except Exception:
+                    continue
+                if dt < cutoff or dt > future_cutoff:
+                    session.delete(j)
+                    pruned_jobs += 1
+
+            # Prune news
+            news = session.query(NewsModel).all()
+            pruned_news = 0
+            for n in news:
+                try:
+                    dt = dateutil_parser.isoparse(n.content_publishedAt)
+                    if dt.tzinfo is None:
+                        dt = dt.replace(tzinfo=timezone.utc)
+                except Exception:
+                    continue
+                if dt < cutoff or dt > future_cutoff:
+                    session.delete(n)
+                    pruned_news += 1
+
+            session.commit()
+            logger.info(
+                f"Pruned expired temporal records: {pruned_jobs} jobs, {pruned_news} news (cutoff={cutoff.isoformat()})"
+            )
+            return {"pruned_jobs": pruned_jobs, "pruned_news": pruned_news}
+        except Exception as e:
+            session.rollback()
+            logger.error(f"Error pruning temporal records: {e}")
+            raise
         finally:
             session.close()
 
