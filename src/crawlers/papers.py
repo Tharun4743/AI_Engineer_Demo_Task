@@ -78,6 +78,8 @@ class PapersCrawler:
 
                     for item in items:
                         repo_url = item.get("html_url")
+                        if not repo_url or "github.com" not in repo_url.lower():
+                            continue
                         stars = int(item.get("stargazers_count", 0))
                         desc = item.get("description") or ""
 
@@ -148,6 +150,10 @@ class PapersCrawler:
                     title = row_data.get("paper_title")
 
                     if not paper_url or not repo_url or not title:
+                        continue
+
+                    # Ensure strictly github.com repository URLs
+                    if "github.com" not in repo_url.lower():
                         continue
 
                     if not deduplicator.mark_seen(paper_url):

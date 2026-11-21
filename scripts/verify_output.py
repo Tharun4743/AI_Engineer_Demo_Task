@@ -15,6 +15,7 @@ from src.storage.db import (
     NewsModel,
     EntityMappingLogModel,
 )
+from src.sinks.sheets import sheets_exporter
 from src.extraction.validator import grounding_validator
 from src.core.logging import logger
 
@@ -81,7 +82,9 @@ class AcceptanceVerifier:
         paper_urls = [p.content_paper_url for p in papers if p.content_paper_url]
         paper_unique = len(set(paper_urls))
         paper_missing_src = sum(1 for p in papers if not p.source_url)
-        paper_with_code_stars = sum(1 for p in papers if p.content_github_url and p.content_github_stars is not None)
+        paper_with_code_stars = sum(
+            1 for p in papers if p.content_github_url and "github.com" in p.content_github_url.lower() and p.content_github_stars is not None
+        )
         self.results["papers_count"] = paper_count
         self.results["papers_unique_urls"] = paper_unique
         self.results["papers_with_code_stars"] = paper_with_code_stars
@@ -187,6 +190,12 @@ class AcceptanceVerifier:
         print("================================================================")
         print("     STARTING ACCEPTANCE AUDIT & DEFINITION OF DONE CHECKS      ")
         print("================================================================")
+        # Prune expired temporal records (>24h) and sync CSV backups if any records pruned
+        pruned = db_manager.prune_expired_temporal_records(max_age_hours=24)
+        if any(v > 0 for v in pruned.values()):
+            print(f"Pruned expired records during verification: {pruned}. Refreshing CSV backups...")
+            sheets_exporter.export_csv_backups()
+
         session = db_manager.Session()
         try:
             self.verify_counts_and_uniqueness(session)
