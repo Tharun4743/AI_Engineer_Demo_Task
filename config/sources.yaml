@@ -1,0 +1,131 @@
+version: "1.0"
+
+sources:
+  papers:
+    - name: "pwc_archive"
+      url: "https://datasets-server.huggingface.co/rows?dataset=pwc-archive%2Flinks-between-paper-and-code&config=default&split=train"
+      type: "api"
+      tier: 1
+      rate_limit: 10
+      freshness_hours: 720
+      description: "Papers With Code public archival dataset of papers and code repositories"
+    - name: "github_arxiv_papers"
+      url: "https://api.github.com/search/repositories"
+      type: "api"
+      tier: 1
+      rate_limit: 10
+      freshness_hours: 168
+      description: "GitHub code repositories linked with arXiv papers and live star counts"
+    - name: "hf_daily_papers"
+      url: "https://huggingface.co/api/daily_papers"
+      type: "api"
+      tier: 1
+      rate_limit: 5
+      freshness_hours: 48
+      description: "Hugging Face daily curated papers"
+
+  startups:
+    - name: "yc_directory_archive"
+      url: "https://raw.githubusercontent.com/ArtificiallyLTD/open-business-datasets/main/yc-companies/yc-companies.json"
+      type: "json_dump"
+      tier: 1
+      rate_limit: 2
+      freshness_hours: 168
+      description: "Y-Combinator funded startups and companies directory"
+    - name: "wikidata_ai_entities"
+      url: "https://query.wikidata.org/sparql"
+      type: "sparql_api"
+      tier: 2
+      rate_limit: 1
+      freshness_hours: 720
+      description: "Wikidata knowledge base query for AI enterprises"
+
+  products:
+    - name: "hf_spaces"
+      url: "https://huggingface.co/api/spaces"
+      type: "api"
+      tier: 1
+      rate_limit: 5
+      freshness_hours: 48
+      description: "Hugging Face Spaces AI applications and demos"
+    - name: "product_hunt"
+      url: "https://www.producthunt.com/topics/artificial-intelligence"
+      type: "web"
+      tier: 3
+      rate_limit: 2
+      freshness_hours: 24
+      description: "Product Hunt AI topic directory"
+
+  news:
+    - name: "techcrunch_ai"
+      url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+      type: "rss"
+      tier: 1
+      rate_limit: 5
+      freshness_hours: 24
+      max_age_hours: 24
+    - name: "hackernews_ai"
+      url: "https://hnrss.org/newest?q=AI"
+      type: "rss"
+      tier: 1
+      rate_limit: 5
+      freshness_hours: 24
+      max_age_hours: 24
+    - name: "cnbc_tech"
+      url: "https://www.cnbc.com/id/19854910/device/rss/rss.html"
+      type: "rss"
+      tier: 1
+      rate_limit: 5
+      freshness_hours: 24
+      max_age_hours: 24
+    - name: "nytimes_tech"
+      url: "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml"
+      type: "rss"
+      tier: 1
+      rate_limit: 5
+      freshness_hours: 24
+      max_age_hours: 24
+    - name: "wired_ai"
+      url: "https://www.wired.com/feed/tag/ai/latest/rss"
+      type: "rss"
+      tier: 1
+      rate_limit: 5
+      freshness_hours: 24
+      max_age_hours: 24
+
+  jobs:
+    - name: "arbeitnow"
+      url: "https://www.arbeitnow.com/api/job-board-api"
+      type: "api"
+      tier: 1
+      rate_limit: 5
+      freshness_hours: 24
+      max_age_hours: 24
+    - name: "jobspresso"
+      url: "https://jobspresso.co/feed/?post_type=job_listing"
+      type: "rss"
+      tier: 1
+      rate_limit: 5
+      freshness_hours: 24
+      max_age_hours: 24
+    - name: "jobicy"
+      url: "https://jobicy.com/api/v2/remote-jobs?count=50"
+      type: "api"
+      tier: 1
+      rate_limit: 5
+      freshness_hours: 24
+      max_age_hours: 24
+    - name: "nodesk"
+      url: "https://nodesk.co/remote-jobs/index.xml"
+      type: "rss"
+      tier: 1
+      rate_limit: 5
+      freshness_hours: 24
+      max_age_hours: 24
+    - name: "himalayas"
+      url: "https://himalayas.app/jobs/rss"
+      type: "rss"
+      tier: 1
+      rate_limit: 5
+      freshness_hours: 24
+      max_age_hours: 24

@@ -1,0 +1,352 @@
+[
+  {
+    "canonical_name": "OpenAI",
+    "aliases": ["OpenAI, Inc.", "Open AI", "OpenAI Inc", "OpenAI LLC"],
+    "domain": "openai.com",
+    "country": "USA",
+    "year_founded": 2015
+  },
+  {
+    "canonical_name": "Anthropic",
+    "aliases": ["Anthropic PBC", "Anthropic AI", "Anthropic, Inc."],
+    "domain": "anthropic.com",
+    "country": "USA",
+    "year_founded": 2021
+  },
+  {
+    "canonical_name": "Cohere",
+    "aliases": ["Cohere AI", "Cohere Inc", "Cohere Technologies"],
+    "domain": "cohere.com",
+    "country": "Canada",
+    "year_founded": 2019
+  },
+  {
+    "canonical_name": "Mistral AI",
+    "aliases": ["Mistral", "MistralAI", "Mistral AI SAS"],
+    "domain": "mistral.ai",
+    "country": "France",
+    "year_founded": 2023
+  },
+  {
+    "canonical_name": "Perplexity AI",
+    "aliases": ["Perplexity", "Perplexity.ai", "Perplexity Inc"],
+    "domain": "perplexity.ai",
+    "country": "USA",
+    "year_founded": 2022
+  },
+  {
+    "canonical_name": "Scale AI",
+    "aliases": ["Scale", "ScaleAI", "Scale Computing Inc."],
+    "domain": "scale.com",
+    "country": "USA",
+    "year_founded": 2016
+  },
+  {
+    "canonical_name": "Hugging Face",
+    "aliases": ["HuggingFace", "Hugging Face Inc.", "HF"],
+    "domain": "huggingface.co",
+    "country": "USA",
+    "year_founded": 2016
+  },
+  {
+    "canonical_name": "Runway",
+    "aliases": ["RunwayML", "Runway AI, Inc.", "Runway Research"],
+    "domain": "runwayml.com",
+    "country": "USA",
+    "year_founded": 2018
+  },
+  {
+    "canonical_name": "Midjourney",
+    "aliases": ["Midjourney Inc.", "Midjourney AI"],
+    "domain": "midjourney.com",
+    "country": "USA",
+    "year_founded": 2022
+  },
+  {
+    "canonical_name": "Jasper",
+    "aliases": ["Jasper AI", "Jasper.ai", "Jarvis AI"],
+    "domain": "jasper.ai",
+    "country": "USA",
+    "year_founded": 2021
+  },
+  {
+    "canonical_name": "Inflection AI",
+    "aliases": ["Inflection", "Inflection.ai", "Inflection AI, Inc."],
+    "domain": "inflection.ai",
+    "country": "USA",
+    "year_founded": 2022
+  },
+  {
+    "canonical_name": "Databricks",
+    "aliases": ["Databricks Inc.", "Databricks AI"],
+    "domain": "databricks.com",
+    "country": "USA",
+    "year_founded": 2013
+  },
+  {
+    "canonical_name": "Character.AI",
+    "aliases": ["Character AI", "Character.ai", "c.ai"],
+    "domain": "character.ai",
+    "country": "USA",
+    "year_founded": 2021
+  },
+  {
+    "canonical_name": "Synthesia",
+    "aliases": ["Synthesia Ltd", "Synthesia AI"],
+    "domain": "synthesia.io",
+    "country": "UK",
+    "year_founded": 2017
+  },
+  {
+    "canonical_name": "ElevenLabs",
+    "aliases": ["Eleven Labs", "ElevenLabs Inc.", "ElevenLabs AI"],
+    "domain": "elevenlabs.io",
+    "country": "USA",
+    "year_founded": 2022
+  },
+  {
+    "canonical_name": "Adept",
+    "aliases": ["Adept AI", "Adept AI Labs", "Adept Inc"],
+    "domain": "adept.ai",
+    "country": "USA",
+    "year_founded": 2022
+  },
+  {
+    "canonical_name": "Cursor",
+    "aliases": ["Anysphere", "Anysphere Inc", "Cursor AI", "Cursor Editor"],
+    "domain": "cursor.com",
+    "country": "USA",
+    "year_founded": 2022
+  },
+  {
+    "canonical_name": "Glean",
+    "aliases": ["Glean Technologies", "Glean Search"],
+    "domain": "glean.com",
+    "country": "USA",
+    "year_founded": 2019
+  },
+  {
+    "canonical_name": "Pinecone",
+    "aliases": ["Pinecone Systems", "Pinecone AI", "Pinecone Vector Database"],
+    "domain": "pinecone.io",
+    "country": "USA",
+    "year_founded": 2019
+  },
+  {
+    "canonical_name": "Weaviate",
+    "aliases": ["Weaviate B.V.", "Weaviate AI"],
+    "domain": "weaviate.io",
+    "country": "Netherlands",
+    "year_founded": 2019
+  },
+  {
+    "canonical_name": "Qdrant",
+    "aliases": ["Qdrant Solutions GmbH", "Qdrant Vector DB"],
+    "domain": "qdrant.tech",
+    "country": "Germany",
+    "year_founded": 2021
+  },
+  {
+    "canonical_name": "Chroma",
+    "aliases": ["Chroma DB", "ChromaDB", "TryChroma"],
+    "domain": "trychroma.com",
+    "country": "USA",
+    "year_founded": 2022
+  },
+  {
+    "canonical_name": "Together AI",
+    "aliases": ["Together Compute", "Together", "TogetherAI"],
+    "domain": "together.ai",
+    "country": "USA",
+    "year_founded": 2022
+  },
+  {
+    "canonical_name": "Replicate",
+    "aliases": ["Replicate Inc", "Replicate AI"],
+    "domain": "replicate.com",
+    "country": "USA",
+    "year_founded": 2019
+  },
+  {
+    "canonical_name": "Fireworks AI",
+    "aliases": ["Fireworks.ai", "Fireworks", "Fireworks AI Inc"],
+    "domain": "fireworks.ai",
+    "country": "USA",
+    "year_founded": 2022
+  },
+  {
+    "canonical_name": "Groq",
+    "aliases": ["Groq Inc.", "Groq AI", "GroqCloud"],
+    "domain": "groq.com",
+    "country": "USA",
+    "year_founded": 2016
+  },
+  {
+    "canonical_name": "Cerebras",
+    "aliases": ["Cerebras Systems", "Cerebras AI"],
+    "domain": "cerebras.net",
+    "country": "USA",
+    "year_founded": 2016
+  },
+  {
+    "canonical_name": "SambaNova",
+    "aliases": ["SambaNova Systems", "SambaNova AI"],
+    "domain": "sambanova.ai",
+    "country": "USA",
+    "year_founded": 2017
+  },
+  {
+    "canonical_name": "Modular",
+    "aliases": ["Modular Inc.", "Mojo", "Modular AI"],
+    "domain": "modular.com",
+    "country": "USA",
+    "year_founded": 2022
+  },
+  {
+    "canonical_name": "LangChain",
+    "aliases": ["LangChain Inc.", "LangChain AI"],
+    "domain": "langchain.com",
+    "country": "USA",
+    "year_founded": 2022
+  },
+  {
+    "canonical_name": "LlamaIndex",
+    "aliases": ["Run Llama", "LlamaIndex Inc", "GPT Index"],
+    "domain": "llamaindex.ai",
+    "country": "USA",
+    "year_founded": 2022
+  },
+  {
+    "canonical_name": "Deepgram",
+    "aliases": ["Deepgram Inc.", "Deepgram AI"],
+    "domain": "deepgram.com",
+    "country": "USA",
+    "year_founded": 2015
+  },
+  {
+    "canonical_name": "AssemblyAI",
+    "aliases": ["Assembly AI", "AssemblyAI Inc."],
+    "domain": "assemblyai.com",
+    "country": "USA",
+    "year_founded": 2017
+  },
+  {
+    "canonical_name": "Stability AI",
+    "aliases": ["StabilityAI", "Stability AI Ltd", "Stable Diffusion"],
+    "domain": "stability.ai",
+    "country": "UK",
+    "year_founded": 2019
+  },
+  {
+    "canonical_name": "Phind",
+    "aliases": ["Phind AI", "Phind Search", "Hello Cognition"],
+    "domain": "phind.com",
+    "country": "USA",
+    "year_founded": 2022
+  },
+  {
+    "canonical_name": "Harvey",
+    "aliases": ["Harvey AI", "Harvey Legal", "Harvey AI Inc."],
+    "domain": "harvey.ai",
+    "country": "USA",
+    "year_founded": 2022
+  },
+  {
+    "canonical_name": "Writer",
+    "aliases": ["Writer AI", "Writer.com", "Qordoba"],
+    "domain": "writer.com",
+    "country": "USA",
+    "year_founded": 2020
+  },
+  {
+    "canonical_name": "Typeface",
+    "aliases": ["Typeface AI", "Typeface Inc."],
+    "domain": "typeface.ai",
+    "country": "USA",
+    "year_founded": 2022
+  },
+  {
+    "canonical_name": "Pika",
+    "aliases": ["Pika Labs", "Pika Art", "Pika AI"],
+    "domain": "pika.art",
+    "country": "USA",
+    "year_founded": 2023
+  },
+  {
+    "canonical_name": "Suno",
+    "aliases": ["Suno AI", "Suno Inc.", "Bark"],
+    "domain": "suno.com",
+    "country": "USA",
+    "year_founded": 2023
+  },
+  {
+    "canonical_name": "Udio",
+    "aliases": ["Udio AI", "Uncharted Labs"],
+    "domain": "udio.com",
+    "country": "USA",
+    "year_founded": 2023
+  },
+  {
+    "canonical_name": "Cognition",
+    "aliases": ["Cognition AI", "Devin AI", "Cognition Labs"],
+    "domain": "cognition.ai",
+    "country": "USA",
+    "year_founded": 2023
+  },
+  {
+    "canonical_name": "Poolside",
+    "aliases": ["Poolside AI", "Poolside SAS"],
+    "domain": "poolside.ai",
+    "country": "France",
+    "year_founded": 2023
+  },
+  {
+    "canonical_name": "Magic",
+    "aliases": ["Magic AI", "Magic.dev", "Magic Technologies"],
+    "domain": "magic.dev",
+    "country": "USA",
+    "year_founded": 2022
+  },
+  {
+    "canonical_name": "Baseten",
+    "aliases": ["Baseten Inc.", "Baseten AI"],
+    "domain": "baseten.co",
+    "country": "USA",
+    "year_founded": 2019
+  },
+  {
+    "canonical_name": "Modal",
+    "aliases": ["Modal Labs", "Modal Labs Inc.", "Modal AI"],
+    "domain": "modal.com",
+    "country": "USA",
+    "year_founded": 2021
+  },
+  {
+    "canonical_name": "Weights & Biases",
+    "aliases": ["W&B", "Wandb", "Weights and Biases"],
+    "domain": "wandb.ai",
+    "country": "USA",
+    "year_founded": 2017
+  },
+  {
+    "canonical_name": "OctoAI",
+    "aliases": ["OctoML", "OctoAI Inc."],
+    "domain": "octoai.cloud",
+    "country": "USA",
+    "year_founded": 2019
+  },
+  {
+    "canonical_name": "Decart",
+    "aliases": ["Decart AI", "Decart.ai"],
+    "domain": "decart.ai",
+    "country": "Israel",
+    "year_founded": 2023
+  },
+  {
+    "canonical_name": "Sakana AI",
+    "aliases": ["Sakana", "Sakana AI KK"],
+    "domain": "sakana.ai",
+    "country": "Japan",
+    "year_founded": 2023
+  }
+]
