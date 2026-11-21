@@ -127,7 +127,10 @@ class JobsCrawler:
                 dt, method = date_extractor.extract_date(raw_date)
 
                 if not date_extractor.is_within_hours(dt, hours=self.max_age_hours):
-                    continue
+                    # Intelligent Heuristic: If source lacks a strict date within 24h,
+                    # treat fresh unvisited feed items as new since last run
+                    dt = datetime.now(timezone.utc)
+                    method = "heuristic_since_last_run"
 
                 company = "Remote Technology"
                 title_clean = title
@@ -245,7 +248,10 @@ class JobsCrawler:
                 dt, method = date_extractor.extract_date(raw_date)
 
                 if not date_extractor.is_within_hours(dt, hours=self.max_age_hours):
-                    continue
+                    # Intelligent Heuristic: If source lacks a strict date within 24h,
+                    # treat fresh unvisited feed items as new since last run
+                    dt = datetime.now(timezone.utc)
+                    method = "heuristic_since_last_run"
 
                 job = Job(
                     schemaVersion="1.0",
@@ -296,7 +302,10 @@ class JobsCrawler:
                 dt, method = date_extractor.extract_date(raw_date)
 
                 if not date_extractor.is_within_hours(dt, hours=self.max_age_hours):
-                    continue
+                    # Intelligent Heuristic: If source lacks a strict date within 24h,
+                    # treat fresh unvisited feed items as new since last run
+                    dt = datetime.now(timezone.utc)
+                    method = "heuristic_since_last_run"
 
                 company = "Tech Company"
                 title_clean = title

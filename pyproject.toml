@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ai-intel-pipeline"
+name = "ai_engineer_demo_task"
 version = "1.0.0"
-description = "Autonomous AI Competitive Intelligence Data Collection and Extraction Pipeline"
+description = "AI Engineer (Demo Task) - Autonomous AI Competitive Intelligence Data Collection and Extraction Pipeline"
 authors = [{ name = "AI Systems Architect" }]
 readme = "README.md"
 requires-python = ">=3.10"

@@ -38,7 +38,7 @@ class NumberedCanvas(canvas.Canvas):
         self.setFillColor(colors.HexColor("#64748B"))
         page_text = f"Page {self._pageNumber} of {page_count}"
         self.drawRightString(612 - 36, 16, page_text)
-        self.drawString(36, 16, "FrontierAtlas / GraphOne AI Intelligence Pipeline — System Architecture & 500k Scaling Blueprint")
+        self.drawString(36, 16, "AI_Engineer_Demo_Task — System Architecture & 500k Scaling Blueprint")
         self.setStrokeColor(colors.HexColor("#CBD5E1"))
         self.setLineWidth(0.5)
         self.line(36, 26, 612 - 36, 26)
@@ -142,11 +142,11 @@ def build_pdf(output_path="architecture.pdf"):
     # =========================================================================
     # PAGE 1: Topology, Anti-Bot Protocols, Freshness, & Entity Resolution
     # =========================================================================
-    story.append(Paragraph("FrontierAtlas: Autonomous AI Competitive Intelligence Pipeline", title_style))
+    story.append(Paragraph("AI Engineer (Demo Task): Autonomous AI Intelligence Pipeline", title_style))
     story.append(Paragraph(
         "Enterprise System Architecture, 500,000-Record Scaling Blueprint, Fault-Tolerant LLM Orchestrator & Production Schemas<br/>"
         "<b>Live Google Sheet Dashboard (6 Tabs)</b>: docs.google.com/spreadsheets/d/1NBvDUVfU9koTYhPR03eda0DGdKY3Hix9xAFDsDEUAcY/edit?usp=sharing<br/>"
-        "<b>GitHub Repository</b>: github.com/Tharun4743/frontier-atlas-ai-pipeline • <b>One-Click Windows Launcher</b>: run.bat",
+        "<b>GitHub Repository</b>: github.com/Tharun4743/AI_Engineer_Demo_Task • <b>One-Click Windows Launcher</b>: run.bat",
         subtitle_style
     ))
     story.append(HRFlowable(width="100%", thickness=1.5, color=colors.HexColor("#1E3A8A"), spaceAfter=3.5))

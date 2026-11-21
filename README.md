@@ -1,9 +1,9 @@
-# Autonomous AI Competitive Intelligence Pipeline
+# AI Engineer (Demo Task) — Autonomous AI Competitive Intelligence Pipeline
 
 Production-ready, distributed, asynchronous intelligence pipeline for automated ingestion, grounding validation, entity resolution, and synchronized multi-sink publishing across the artificial intelligence ecosystem.
 
 - **Live Google Sheet Dashboard (6 Tabs)**: [https://docs.google.com/spreadsheets/d/1NBvDUVfU9koTYhPR03eda0DGdKY3Hix9xAFDsDEUAcY/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1NBvDUVfU9koTYhPR03eda0DGdKY3Hix9xAFDsDEUAcY/edit?usp=sharing)
-- **GitHub Repository**: [https://github.com/Tharun4743/frontier-atlas-ai-pipeline](https://github.com/Tharun4743/frontier-atlas-ai-pipeline)
+- **GitHub Repository**: [https://github.com/Tharun4743/AI_Engineer_Demo_Task](https://github.com/Tharun4743/AI_Engineer_Demo_Task)
 - **One-Click Windows Launcher**: [`run.bat`](file:///c:/Users/tharu/Documents/AI%20ENGINEER%20DEMO/run.bat) (Interactive menu + CLI runner)
 
 ---

@@ -2,11 +2,11 @@
 setlocal enabledelayedexpansion
 
 REM ==============================================================================
-REM FrontierAtlas / GraphOne - Autonomous AI Competitive Intelligence Pipeline
+REM AI_Engineer_Demo_Task - Autonomous AI Competitive Intelligence Pipeline
 REM Execution Launcher (Windows Batch Script)
 REM ==============================================================================
 
-title FrontierAtlas AI Intelligence Pipeline
+title AI_Engineer_Demo_Task
 
 set "SCRIPT_DIR=%~dp0"
 cd /d "%SCRIPT_DIR%"
@@ -48,9 +48,9 @@ goto INVALID_ARG
 :MENU
 cls
 echo ==============================================================================
-echo   FRONTIERATLAS - AUTONOMOUS AI COMPETITIVE INTELLIGENCE PIPELINE
+echo   AI_ENGINEER_DEMO_TASK - AUTONOMOUS AI INTELLIGENCE PIPELINE
 echo   Live Sheet: https://docs.google.com/spreadsheets/d/1NBvDUVfU9koTYhPR03eda0DGdKY3Hix9xAFDsDEUAcY/edit?usp=sharing
-echo   Repository: https://github.com/Tharun4743/frontier-atlas-ai-pipeline
+echo   Repository: https://github.com/Tharun4743/AI_Engineer_Demo_Task
 echo ==============================================================================
 echo.
 echo   [1] Run Full Pipeline (Phase 1 + Phase 2 + Export)
