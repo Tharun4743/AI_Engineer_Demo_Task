@@ -38,7 +38,7 @@ class NumberedCanvas(canvas.Canvas):
         self.setFillColor(colors.HexColor("#718096"))
         page_text = f"Page {self._pageNumber} of {page_count}"
         self.drawRightString(612 - 40, 24, page_text)
-        self.drawString(40, 24, "AI Competitive Intelligence Pipeline — System Architecture & 500k Scaling Blueprint")
+        self.drawString(40, 24, "FrontierAtlas AI Competitive Intelligence Pipeline — System Architecture Specification")
         self.restoreState()
 
 
@@ -59,55 +59,45 @@ def build_architecture_pdf(output_path="architecture.pdf"):
         "DocTitle",
         parent=styles["Normal"],
         fontName="Helvetica-Bold",
-        fontSize=18,
-        leading=22,
+        fontSize=17,
+        leading=21,
         textColor=colors.HexColor("#1A202C"),
-        spaceAfter=3,
+        spaceAfter=2,
     )
     subtitle_style = ParagraphStyle(
         "DocSubtitle",
         parent=styles["Normal"],
         fontName="Helvetica",
-        fontSize=9,
-        leading=12,
+        fontSize=8.5,
+        leading=11.5,
         textColor=colors.HexColor("#4A5568"),
-        spaceAfter=6,
+        spaceAfter=5,
     )
     h1_style = ParagraphStyle(
         "H1",
         parent=styles["Normal"],
         fontName="Helvetica-Bold",
-        fontSize=11,
-        leading=14,
+        fontSize=10.5,
+        leading=13.5,
         textColor=colors.HexColor("#2B6CB0"),
-        spaceBefore=6,
-        spaceAfter=3,
-    )
-    h2_style = ParagraphStyle(
-        "H2",
-        parent=styles["Normal"],
-        fontName="Helvetica-Bold",
-        fontSize=9.5,
-        leading=12.5,
-        textColor=colors.HexColor("#2D3748"),
-        spaceBefore=4,
-        spaceAfter=2,
+        spaceBefore=5,
+        spaceAfter=2.5,
     )
     body_style = ParagraphStyle(
         "Body",
         parent=styles["Normal"],
         fontName="Helvetica",
-        fontSize=8,
-        leading=11,
+        fontSize=7.8,
+        leading=10.8,
         textColor=colors.HexColor("#2D3748"),
-        spaceAfter=4,
+        spaceAfter=3,
     )
     bullet_style = ParagraphStyle(
         "BulletText",
         parent=styles["Normal"],
         fontName="Helvetica",
-        fontSize=7.5,
-        leading=10.5,
+        fontSize=7.4,
+        leading=10.2,
         textColor=colors.HexColor("#2D3748"),
         spaceAfter=2,
     )
@@ -115,8 +105,8 @@ def build_architecture_pdf(output_path="architecture.pdf"):
         "CodeStyle",
         parent=styles["Normal"],
         fontName="Courier",
-        fontSize=7.5,
-        leading=9.5,
+        fontSize=7.2,
+        leading=9.2,
         textColor=colors.HexColor("#1A202C"),
     )
 
@@ -124,27 +114,31 @@ def build_architecture_pdf(output_path="architecture.pdf"):
 
     # ================= PAGE 1 =================
     story.append(Paragraph("Autonomous AI Intelligence Pipeline", title_style))
-    story.append(Paragraph("System Architecture Specification, 500k Scaling Blueprint & Fault-Tolerance Controls", subtitle_style))
-    story.append(HRFlowable(width="100%", thickness=1.5, color=colors.HexColor("#2B6CB0"), spaceAfter=6))
+    story.append(Paragraph(
+        "Architecture Blueprint, 500k Scale Strategy, Multi-Tier Fault-Tolerance & Production Schema Design<br/>"
+        "<b>GitHub</b>: github.com/Tharun4743/frontier-atlas-ai-pipeline • <b>Live Dashboard</b>: 6-Tab Google Sheet Synced",
+        subtitle_style
+    ))
+    story.append(HRFlowable(width="100%", thickness=1.5, color=colors.HexColor("#2B6CB0"), spaceAfter=5))
 
     story.append(Paragraph("1. System Topology & Ingestion Pipeline", h1_style))
     story.append(Paragraph(
-        "The Autonomous AI Competitive Intelligence Pipeline is a distributed, high-throughput asynchronous engine "
-        "designed for ingestion, grounded extraction, deterministic canonicalization, and multi-sink synchronization "
-        "across 5 ecosystem domains: Startups, Products, Research Papers, Jobs, and News.",
+        "The FrontierAtlas AI Competitive Intelligence Pipeline is a distributed, high-throughput asynchronous engine "
+        "engineered for massive bulk ingestion, grounded extraction, deterministic canonicalization, and multi-sink synchronization "
+        "across 5 ecosystem verticals: Startups, Products, Research Papers, Jobs, and News.",
         body_style
     ))
 
     diag_data = [
-        [Paragraph("<b>Source Ingestion Layer</b><br/>arXiv API, Hugging Face Spaces & Datasets, Y-Combinator Directory, 5 News RSS Feeds, 5 Tech Job Boards", code_style)],
+        [Paragraph("<b>Source Ingestion Layer</b><br/>arXiv API, Hugging Face Spaces & Datasets, YC Company Directory, 5 News Feeds, 5 Tech Job Boards", code_style)],
         [Paragraph("↓", body_style)],
-        [Paragraph("<b>Resilient Networking & Anti-Bot Escalation</b><br/>Token Bucket (Per-Domain) • Concurrency Semaphore • Tier 1 (Native) → Tier 2 (curl_cffi TLS) → Tier 3 (Playwright)", code_style)],
+        [Paragraph("<b>Resilient Networking & Anti-Bot Escalation</b><br/>Token Bucket (Per-Domain) • Concurrency Semaphore • Tier 1 (Native Async) → Tier 2 (curl_cffi TLS) → Tier 3 (Playwright)", code_style)],
         [Paragraph("↓", body_style)],
-        [Paragraph("<b>Extraction & Anti-Hallucination Grounding Gate</b><br/>Trafilatura / Readability Text Extraction • Multi-LLM Orchestrator • Lexical Substring & Token Overlap Gate", code_style)],
+        [Paragraph("<b>Extraction & Anti-Hallucination Grounding Gate</b><br/>Trafilatura / Readability Text Extraction • Multi-LLM Orchestrator • Lexical Substring & 70% Token Overlap Gate", code_style)],
         [Paragraph("↓", body_style)],
         [Paragraph("<b>Deterministic Entity Resolution & Audit</b><br/>Seed Ground Truth (50 Entities) • Legal Suffix Stripping • Exact Domain Match • Entity Mapping Log", code_style)],
         [Paragraph("↓", body_style)],
-        [Paragraph("<b>Persistence, 24h Freshness Pruning & Multi-Sink Synchronization</b><br/>SQLAlchemy (SQLite / Postgres) with Unique Constraints • Google Sheets (6 Tabs) • Local CSV Mirroring", code_style)],
+        [Paragraph("<b>Persistence, 24h Rolling Freshness & Multi-Sink Synchronization</b><br/>SQLAlchemy (SQLite / Postgres) with Unique Constraints • Google Sheets (6 Tabs) • Local CSV Mirroring", code_style)],
     ]
     diag_table = Table(diag_data, colWidths=[532])
     diag_table.setStyle(TableStyle([
@@ -152,11 +146,11 @@ def build_architecture_pdf(output_path="architecture.pdf"):
         ('BOX', (0, 0), (0, -1), 0.5, colors.HexColor("#CBD5E0")),
         ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
         ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
-        ('TOPPADDING', (0, 0), (-1, -1), 3),
-        ('BOTTOMPADDING', (0, 0), (-1, -1), 3),
+        ('TOPPADDING', (0, 0), (-1, -1), 2.5),
+        ('BOTTOMPADDING', (0, 0), (-1, -1), 2.5),
     ]))
     story.append(diag_table)
-    story.append(Spacer(1, 6))
+    story.append(Spacer(1, 5))
 
     story.append(Paragraph("2. Tiered Anti-Bot & Network Escalation Protocol", h1_style))
     story.append(Paragraph(
@@ -176,11 +170,11 @@ def build_architecture_pdf(output_path="architecture.pdf"):
         ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor("#2B6CB0")),
         ('TEXTCOLOR', (0, 0), (-1, 0), colors.white),
         ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
-        ('FONTSIZE', (0, 0), (-1, 0), 7.5),
-        ('FONTSIZE', (0, 1), (-1, -1), 7.5),
+        ('FONTSIZE', (0, 0), (-1, 0), 7.2),
+        ('FONTSIZE', (0, 1), (-1, -1), 7.2),
         ('GRID', (0, 0), (-1, -1), 0.5, colors.HexColor("#E2E8F0")),
-        ('TOPPADDING', (0, 0), (-1, -1), 3),
-        ('BOTTOMPADDING', (0, 0), (-1, -1), 3),
+        ('TOPPADDING', (0, 0), (-1, -1), 2.5),
+        ('BOTTOMPADDING', (0, 0), (-1, -1), 2.5),
     ]))
     story.append(tier_table)
 
@@ -189,8 +183,8 @@ def build_architecture_pdf(output_path="architecture.pdf"):
     # ================= PAGE 2 =================
     story.append(Paragraph("3. Anti-Hallucination Grounding Architecture", h1_style))
     story.append(Paragraph(
-        "Generative LLM extraction introduces non-zero risk of phantom entities, hallucinated funding figures, or fabricated URLs. "
-        "The pipeline implements a mandatory zero-trust verification gate between LLM inference and database persistence:",
+        "Generative LLM extraction introduces non-zero risk of phantom entities, hallucinated metrics, or fabricated URLs. "
+        "The pipeline implements a mandatory zero-trust verification gate between LLM inference and persistence:",
         body_style
     ))
     story.append(Paragraph(
@@ -201,7 +195,7 @@ def build_architecture_pdf(output_path="architecture.pdf"):
         "• <b>Audit Tracking</b>: The acceptance verification suite monitors and reports the exact percentage of nulled fields and dropped records.",
         bullet_style
     ))
-    story.append(Spacer(1, 4))
+    story.append(Spacer(1, 3))
 
     story.append(Paragraph("4. Fault-Tolerant LLM Orchestrator & Circuit Breakers (413 & 429 Handling)", h1_style))
     story.append(Paragraph(
@@ -221,15 +215,15 @@ def build_architecture_pdf(output_path="architecture.pdf"):
         ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor("#2B6CB0")),
         ('TEXTCOLOR', (0, 0), (-1, 0), colors.white),
         ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
-        ('FONTSIZE', (0, 0), (-1, 0), 7.5),
-        ('FONTSIZE', (0, 1), (-1, -1), 7.5),
+        ('FONTSIZE', (0, 0), (-1, 0), 7.2),
+        ('FONTSIZE', (0, 1), (-1, -1), 7.2),
         ('GRID', (0, 0), (-1, 0), 0.5, colors.HexColor("#E2E8F0")),
         ('GRID', (0, 1), (-1, -1), 0.5, colors.HexColor("#E2E8F0")),
-        ('TOPPADDING', (0, 0), (-1, -1), 3),
-        ('BOTTOMPADDING', (0, 0), (-1, -1), 3),
+        ('TOPPADDING', (0, 0), (-1, -1), 2.5),
+        ('BOTTOMPADDING', (0, 0), (-1, -1), 2.5),
     ]))
     story.append(llm_table)
-    story.append(Spacer(1, 4))
+    story.append(Spacer(1, 3))
 
     story.append(Paragraph("5. Deterministic Entity Resolution", h1_style))
     story.append(Paragraph(
@@ -242,7 +236,7 @@ def build_architecture_pdf(output_path="architecture.pdf"):
         "• <b>Auditability</b>: Every resolved entity generates an explicit row in the <i>Entity Mapping Log</i> containing raw name, canonical name, method, score, and source URL.",
         bullet_style
     ))
-    story.append(Spacer(1, 4))
+    story.append(Spacer(1, 3))
 
     story.append(Paragraph("6. 500k Scaling Strategy: Distributed Ingestion & LLM Optimization", h1_style))
     story.append(Paragraph(
@@ -260,34 +254,34 @@ def build_architecture_pdf(output_path="architecture.pdf"):
     story.append(PageBreak())
 
     # ================= PAGE 3 =================
-    story.append(Paragraph("7. Relational Data Schema & Storage Architecture", h1_style))
+    story.append(Paragraph("7. Relational Canonical Schema & Storage Architecture", h1_style))
     story.append(Paragraph(
-        "All pipeline data persists in PostgreSQL / SQLite via SQLAlchemy with strict relational constraints and volume requirements:",
+        "All pipeline data persists in PostgreSQL / SQLite via SQLAlchemy with strict relational constraints and canonical field schemas:",
         body_style
     ))
 
     schema_data = [
-        ["Table / Entity", "Primary Key & Unique Constraint", "Core Attributes", "Volume Threshold"],
-        ["Startups", "id (PK), website (UNIQUE)", "canonical_name, legal_name, domain, batch, status, country, year", "≥ 1,000 unique"],
-        ["Products", "id (PK), product_url (UNIQUE)", "name, canonical_name, description, category, stars_or_likes", "≥ 1,000 unique"],
-        ["Research Papers", "id (PK), paper_url (UNIQUE)", "title, arxiv_id, abstract, github_url, github_stars", "≥ 1,000 code+stars"],
-        ["Jobs", "id (PK), job_url (UNIQUE)", "title, company_name, canonical_name, location, published_at, date_method", "5 sources, 100% ≤ 24h"],
-        ["News", "id (PK), article_url (UNIQUE)", "title, source_name, published_at, date_method, summary", "5 sources, 100% ≤ 24h"],
+        ["Table / Entity", "Primary Key & Unique Constraint", "Canonical Field Schema", "Volume Threshold"],
+        ["Startups", "id (PK), content_website (UQ)", "content_entityName, content_data_employeeCount, content_batch", "≥ 1,000 unique"],
+        ["Products", "id (PK), content_productUrl (UQ)", "content_productName, content_startupName, content_pricingModel", "≥ 1,000 unique"],
+        ["Research Papers", "id (PK), content_paper_url (UQ)", "content_title, content_paper_url, content_github_url, content_github_stars", "≥ 1,000 code+stars"],
+        ["Jobs", "id (PK), content_jobUrl (UQ)", "content_company, content_date, content_is_remote, content_role_family", "5 sources, 100% ≤ 24h"],
+        ["News", "id (PK), content_articleUrl (UQ)", "content_title, content_articleUrl, content_publishedAt, date_method", "5 sources, 100% ≤ 24h"],
         ["Entity Mapping Log", "id (PK)", "raw_name, canonical_name, method, score, source_url", "Audit traceability"],
     ]
-    schema_table = Table(schema_data, colWidths=[95, 135, 212, 90])
+    schema_table = Table(schema_data, colWidths=[90, 140, 212, 90])
     schema_table.setStyle(TableStyle([
         ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor("#2B6CB0")),
         ('TEXTCOLOR', (0, 0), (-1, 0), colors.white),
         ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
-        ('FONTSIZE', (0, 0), (-1, 0), 7.5),
-        ('FONTSIZE', (0, 1), (-1, -1), 7.5),
+        ('FONTSIZE', (0, 0), (-1, 0), 7.2),
+        ('FONTSIZE', (0, 1), (-1, -1), 7.2),
         ('GRID', (0, 0), (-1, -1), 0.5, colors.HexColor("#E2E8F0")),
-        ('TOPPADDING', (0, 0), (-1, -1), 3),
-        ('BOTTOMPADDING', (0, 0), (-1, -1), 3),
+        ('TOPPADDING', (0, 0), (-1, -1), 2.5),
+        ('BOTTOMPADDING', (0, 0), (-1, -1), 2.5),
     ]))
     story.append(schema_table)
-    story.append(Spacer(1, 4))
+    story.append(Spacer(1, 3))
 
     story.append(Paragraph("8. 500k Scaling Strategy: Database Indexing & Cold Lake Tiering", h1_style))
     story.append(Paragraph(
@@ -302,16 +296,16 @@ def build_architecture_pdf(output_path="architecture.pdf"):
         "• <b>Google Sheets 10M Cell Management</b>: High-volume raw data resides in PostgreSQL and Parquet cold lake; Google Sheets receives executive cohort partitions and curated analytical views to stay strictly within cell limits.",
         bullet_style
     ))
-    story.append(Spacer(1, 4))
+    story.append(Spacer(1, 3))
 
     story.append(Paragraph("9. Sink Replication & 24-Hour Freshness Tracking", h1_style))
     story.append(Paragraph(
-        "• <b>Google Sheets Dashboard</b>: Automated service account synchronization creates/updates exactly 6 ordered tabs: <i>Startups</i>, <i>Products</i>, <i>Research Papers</i>, <i>Jobs</i>, <i>News</i>, and <i>Entity Mapping Log</i> with public read-only ACL.<br/>"
+        "• <b>Google Sheets Dashboard</b>: Automated service account / CLI synchronization creates/updates exactly 6 ordered tabs: <i>Startups</i>, <i>Products</i>, <i>Research Papers</i>, <i>Jobs</i>, <i>News</i>, and <i>Entity Mapping Log</i> with public read-only access.<br/>"
         "• <b>Atomic CSV Backups</b>: Mirrors all database tables to <i>output/*.csv</i> with 100% schema parity for offline analysis.<br/>"
-        "• <b>Automated 24h TTL Freshness Pruning</b>: The <i>prune_expired_temporal_records(max_age_hours=24)</i> engine purges stale job and news listings prior to export, guaranteeing 100% freshness compliance across 5 sources each.",
+        "• <b>Automated 24h Rolling TTL Freshness</b>: The <i>prune_expired_temporal_records(max_age_hours=24)</i> engine purges stale job and news listings prior to export, guaranteeing 100% freshness compliance across 5 sources each.",
         bullet_style
     ))
-    story.append(Spacer(1, 4))
+    story.append(Spacer(1, 3))
 
     story.append(Paragraph("10. Acceptance Verification Suite (Definition of Done)", h1_style))
     story.append(Paragraph(
