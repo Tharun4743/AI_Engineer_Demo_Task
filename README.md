@@ -2,8 +2,9 @@
 
 Production-ready, distributed, asynchronous intelligence pipeline for automated ingestion, grounding validation, entity resolution, and synchronized multi-sink publishing across the artificial intelligence ecosystem.
 
-- **Live Google Sheet Dashboard (6 Tabs)**: [FrontierAtlas Dashboard](https://docs.google.com/spreadsheets/d/1NBvDUVfU9koTYhPR03eda0DGdKY3Hix9xAFDsDEUAcY/edit)
-- **GitHub Repository**: [Tharun4743/frontier-atlas-ai-pipeline](https://github.com/Tharun4743/frontier-atlas-ai-pipeline)
+- **Live Google Sheet Dashboard (6 Tabs)**: [https://docs.google.com/spreadsheets/d/1NBvDUVfU9koTYhPR03eda0DGdKY3Hix9xAFDsDEUAcY/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1NBvDUVfU9koTYhPR03eda0DGdKY3Hix9xAFDsDEUAcY/edit?usp=sharing)
+- **GitHub Repository**: [https://github.com/Tharun4743/frontier-atlas-ai-pipeline](https://github.com/Tharun4743/frontier-atlas-ai-pipeline)
+- **One-Click Windows Launcher**: [`run.bat`](file:///c:/Users/tharu/Documents/AI%20ENGINEER%20DEMO/run.bat) (Interactive menu + CLI runner)
 
 ---
 
@@ -162,9 +163,36 @@ GOOGLE_SHEET_ID=                                  # Optional: leave empty to cre
 
 ---
 
-## 4. Execution Guide (CLI)
+## 4. Execution Guide (One-Click Launcher & CLI)
 
-The command-line interface provides modular phase execution:
+### 4.1 One-Click Windows Launcher (`run.bat`)
+A standalone Windows batch launcher is provided at the root of the repository. Double-click [`run.bat`](file:///c:/Users/tharu/Documents/AI%20ENGINEER%20DEMO/run.bat) to launch an interactive menu, or execute it via terminal:
+
+```cmd
+:: Run complete pipeline (Phase 1 + Phase 2 + Export + Verification)
+run.bat all
+
+:: Run Phase 1 only (Startups, Products, Research Papers)
+run.bat phase1
+
+:: Run Phase 2 only (Real-Time News and Jobs <= 24h)
+run.bat phase2
+
+:: Run Data Export (Google Sheets sync + output/*.csv backups)
+run.bat export
+
+:: Run full automated regression test suite (18 pytest tests)
+run.bat test
+
+:: Run Definition of Done (DoD) acceptance verification audit
+run.bat verify
+
+:: Recompile 3-page architecture PDF (architecture.pdf)
+run.bat pdf
+```
+
+### 4.2 Direct Python CLI Execution
+Alternatively, execute phases directly with Python:
 
 ```bash
 # Phase 1: Foundational Intelligence (Startups, Products, Research Papers)
