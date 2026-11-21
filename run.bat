@@ -163,7 +163,7 @@ exit /b %errorlevel%
 
 :DO_PHASE2
 echo.
-echo [INFO] Executing Phase 2: Real-Time Temporal Ingestion (<=24h)...
+echo [INFO] Executing Phase 2: Real-Time Temporal Ingestion (^<=24h)...
 %PYTHON_CMD% src/main.py phase2
 exit /b %errorlevel%
 
@@ -189,7 +189,7 @@ exit /b %errorlevel%
 echo.
 echo [INFO] Recompiling architecture.pdf (strictly 3 pages)...
 %PYTHON_CMD% scripts/generate_pdf.py
-%PYTHON_CMD% -c "import pypdf; r=pypdf.PdfReader('architecture.pdf'); print(f'Compiled Page Count: {len(r.pages)}'); assert len(r.pages) <= 3, 'Exceeds 3 pages!'"
+%PYTHON_CMD% -c "import pypdf; r=pypdf.PdfReader('architecture.pdf'); print(f'Compiled Page Count: {len(r.pages)}'); assert len(r.pages) ^<= 3, 'Exceeds 3 pages!'"
 exit /b %errorlevel%
 
 :USAGE
@@ -198,8 +198,8 @@ echo Usage: run.bat [COMMAND]
 echo.
 echo Available Commands:
 echo   all       Execute Phase 1, Phase 2, and Data Export sequentially
-echo   phase1    Acquire Startups (>=1,000), Products (>=1,000), Papers (>=1,000)
-echo   phase2    Ingest real-time News and Jobs (100%% <=24h fresh across 5 sources)
+echo   phase1    Acquire Startups (^>=1,000), Products (^>=1,000), Papers (^>=1,000)
+echo   phase2    Ingest real-time News and Jobs (100%% ^<=24h fresh across 5 sources)
 echo   export    Sync database to 6-tab Google Sheet and export output/*.csv
 echo   test      Execute 18/18 pytest test cases
 echo   verify    Run Definition of Done automated audit
